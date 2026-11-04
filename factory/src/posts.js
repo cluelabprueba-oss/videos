@@ -2,11 +2,11 @@ const m=require('./mysteries.js');
 const tags='#mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames';
 const out=[];
 m.forEach((x,k)=>{
- const h=14+2*k; const day=4+Math.floor(h/24); const hh=h%24;
+ const h=14+2*k; const day=5+Math.floor(h/24); const hh=h%24;
  const pad=n=>String(n).padStart(2,'0');
  const dt=`2026-11-${pad(day)}T${pad(hh)}:00:00`;
  const info={autoPublish:true,descendants:[],draft:false,firstCommentText:'',hasNotReadNotes:false,
-  media:[`https://raw.githubusercontent.com/cluelabprueba-oss/videos/claude/ecstatic-volta-hwip9j/${x.id}.mp4`],
+  media:[`https://raw.githubusercontent.com/cluelabprueba-oss/videos/claude/ecstatic-volta-ddab6y/${x.id}.mp4`],
   mediaAltText:[],providers:[{network:'instagram'},{network:'tiktok'},{network:'youtube'}],
   publicationDate:{dateTime:dt,timezone:'Europe/Madrid'},shortener:false,smartLinkData:{ids:[]},
   text:`${x.cap.ig} ${tags}`,
