@@ -1,0 +1,482 @@
+[
+ {
+  "id": "CL-0063",
+  "title": "The Wednesday Postmark",
+  "cat": "Hidden clue",
+  "solution": "Paula",
+  "mechanism": "Postmark date after the time of death plus post-office opening hours versus a train alibi.",
+  "q": "Who mailed the dead man's letter?",
+  "names": [
+   "Nina",
+   "Oscar",
+   "Paula"
+  ],
+  "icons": [
+   "wave",
+   "train",
+   "nurse"
+  ],
+  "tags": [
+   "at sea until Thursday",
+   "train at 7:00",
+   "stayed in the village"
+  ],
+  "caseIcon": "calendar",
+  "board": [
+   "MON: Hale dies",
+   "WED 9:15 postmark",
+   "THU letter arrives"
+  ],
+  "seg": {
+   "hook": "One of these three mailed a letter for a dead man. And the calendar gives them away.",
+   "case": "Monday night, old Mr. Hale dies in his study. On Thursday, his lawyer receives a letter, signed by Hale, leaving everything to his niece. The postmark: Wednesday, nine fifteen, the village post office.",
+   "s1": "Nina, the niece: \"I was on a cruise until Thursday.\"",
+   "s2": "Oscar, the neighbor: \"On Wednesday I took the seven o'clock train to the city.\"",
+   "s3": "Paula, the nurse: \"I stayed in the village all week.\"",
+   "challenge": "The post office opens at nine. Who mailed the dead man's letter? You have five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Paula. Hale was already dead on Wednesday, so someone mailed it for him. Nina was at sea. Oscar was on a train before the post office even opened. Only Paula was in the village at nine fifteen.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": "CL-0003"
+ },
+ {
+  "id": "CL-0064",
+  "title": "The Silent Fireworks",
+  "cat": "Spot the lie",
+  "solution": "Quinn",
+  "mechanism": "Speed of sound versus light: bangs heard instantly cannot come from 3 km away.",
+  "q": "Who is lying about the fireworks?",
+  "names": [
+   "Pia",
+   "Quinn",
+   "Rex"
+  ],
+  "icons": [
+   "keyx",
+   "firework",
+   "wave"
+  ],
+  "tags": [
+   "no key to the office",
+   "bangs came instantly",
+   "out at sea, heard wind"
+  ],
+  "caseIcon": "firework",
+  "board": [
+   "12:00 fireworks",
+   "harbor office broken into",
+   "sound: 3 s per km"
+  ],
+  "seg": {
+   "hook": "He watched the fireworks from three kilometers away. But the bangs came too soon.",
+   "case": "At midnight, fireworks launch from the harbor, and someone breaks into the harbor office. Sound takes three seconds to travel one kilometer.",
+   "s1": "Pia, the guard, stood on the harbor wall, with no key to the office.",
+   "s2": "Quinn, the baker: \"I watched from the hilltop, three kilometers away. Each bang came the instant the lights burst.\"",
+   "s3": "Rex, the sailor: \"I was far out at sea. I heard only wind.\"",
+   "challenge": "Who is lying? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Quinn. From three kilometers, each bang arrives almost ten seconds late. He heard them instantly, so he stood beside the launch.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0065",
+  "title": "Three Gold Bars",
+  "cat": "Think like a detective",
+  "solution": "Kurt",
+  "mechanism": "Archimedes displacement: equal mass, lower density (lead) means larger volume and more water displaced.",
+  "q": "Who delivered the fake bar?",
+  "names": [
+   "Ines",
+   "Joel",
+   "Kurt"
+  ],
+  "icons": [
+   "bar",
+   "bar",
+   "bar"
+  ],
+  "tags": [
+   "raises water 52 ml",
+   "raises water 52 ml",
+   "raises water 88 ml"
+  ],
+  "caseIcon": "bar",
+  "board": [
+   "3 bars, 1 kg each",
+   "one may be painted lead",
+   "drop each in water"
+  ],
+  "seg": {
+   "hook": "Three gold bars, the same weight. One is a fraud, and water will expose it.",
+   "case": "A courier delivers three bars, one kilo each. One may be lead, painted gold. The detective lowers each bar into a tank of water.",
+   "s1": "Ines's bar raises the water fifty-two milliliters.",
+   "s2": "Joel's bar raises the water fifty-two milliliters.",
+   "s3": "Kurt's bar raises the water eighty-eight milliliters.",
+   "challenge": "Lead takes up more space than gold for the same weight. Who delivered the fake? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Kurt. A kilo of lead is bulkier than a kilo of gold, so it pushes aside more water. Ines and Joel delivered real gold.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0066",
+  "title": "The Fake Surprise",
+  "cat": "Psychological trap",
+  "solution": "Elio",
+  "mechanism": "Micro-expression timing: genuine surprise fades in about a second, a performed one lingers.",
+  "q": "Who already knew?",
+  "names": [
+   "Dina",
+   "Elio",
+   "Faye"
+  ],
+  "icons": [
+   "faceeyes",
+   "facemouth",
+   "facepale"
+  ],
+  "tags": [
+   "eyes wide, then falls",
+   "mouth open for 5 seconds",
+   "pale, sits down"
+  ],
+  "caseIcon": "clock",
+  "board": [
+   "boss attacked last night",
+   "told: \"he did not survive\"",
+   "real surprise: ~1 second"
+  ],
+  "seg": {
+   "hook": "Real surprise fades in a second. A faked one lingers.",
+   "case": "A factory boss was attacked last night. The detective calls in three coworkers, one by one, and says: \"He did not survive.\" Then she watches their faces.",
+   "s1": "Dina's eyes go wide for a moment, then her face falls.",
+   "s2": "Elio's mouth drops open, and stays open, hands frozen, for five long seconds.",
+   "s3": "Faye blinks, goes pale, and sits down without a word.",
+   "challenge": "Real surprise lasts about one second. Who already knew? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Elio. Genuine surprise flashes and fades. His lasted five seconds, a performance. Dina and Faye were hearing the news for the first time.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0067",
+  "title": "The Rusty Cut",
+  "cat": "Hidden clue",
+  "solution": "Hana",
+  "mechanism": "Oxidation dating: rust on cut steel ends proves the chain was cut days before the claimed night.",
+  "q": "Who cut the chain?",
+  "names": [
+   "Hana",
+   "Ivo",
+   "Jade"
+  ],
+  "icons": [
+   "clock",
+   "leaving",
+   "arriving"
+  ],
+  "tags": [
+   "left Tuesday at noon",
+   "holiday, back Sunday",
+   "started Sunday night"
+  ],
+  "caseIcon": "chain",
+  "board": [
+   "Tue: chain intact",
+   "Mon: chain cut, goods gone",
+   "cut ends: orange rust"
+  ],
+  "seg": {
+   "hook": "The thief cut the chain last night. But the rust says it was cut days ago.",
+   "case": "A warehouse is robbed. The gate chain was cut with bolt cutters. It was intact on Tuesday morning. The theft was found on Monday. Fresh steel shines silver, but these cut ends are orange with rust.",
+   "s1": "Hana, the clerk: \"I worked until Tuesday noon, then went home.\"",
+   "s2": "Ivo, the driver: \"I was on holiday all week, back Sunday night.\"",
+   "s3": "Jade, the new guard: \"Sunday night was my first shift.\"",
+   "challenge": "Rust takes days to form. Who cut the chain? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Hana. Rust needs days, so the chain was cut after Tuesday's check, not on Sunday night. Ivo was away. Jade had just started. Only Hana was there on Tuesday.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0068",
+  "title": "The Cold Soup",
+  "cat": "Who is the killer",
+  "solution": "Gina",
+  "mechanism": "Congealed fat and cold soup date the serving time hours before the claimed 8:30.",
+  "q": "Who lied about the soup?",
+  "names": [
+   "Gina",
+   "Bruno",
+   "Carl"
+  ],
+  "icons": [
+   "bowl",
+   "receipt",
+   "body"
+  ],
+  "tags": [
+   "served at 8:30",
+   "receipt 6 to 9",
+   "arrived 8:45"
+  ],
+  "caseIcon": "bowl",
+  "board": [
+   "served 8:30?",
+   "cold + fat set",
+   "= served HOURS ago"
+  ],
+  "seg": {
+   "hook": "The soup was served hot. The dead man's bowl says otherwise.",
+   "case": "Mr. Arden is found dead at his dinner table at nine. The soup in front of him is stone cold, with a thick layer of fat set on top.",
+   "s1": "Gina, the cook: \"I served his hot soup at eight thirty, and left.\"",
+   "s2": "Bruno, the butler: \"I was shopping from six to nine. Here is my receipt.\"",
+   "s3": "Carl, the nephew: \"I arrived at eight forty-five, and found him dead.\"",
+   "challenge": "Think about the soup. Who lied? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Gina. Soup takes far longer than thirty minutes to go cold and set. It was served hours earlier. She lied about the time to hide that she was with him much earlier.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": "CL-0011"
+ },
+ {
+  "id": "CL-0069",
+  "title": "The Wrong Side of the Road",
+  "cat": "Spot the lie",
+  "solution": "Moe",
+  "mechanism": "Driving side by country: photo of right-hand traffic cannot be London (left-hand traffic).",
+  "q": "Whose photo was not taken in London?",
+  "names": [
+   "Kai",
+   "Lia",
+   "Moe"
+  ],
+  "icons": [
+   "bus",
+   "clock",
+   "road"
+  ],
+  "tags": [
+   "bus on the left",
+   "taxi on the left",
+   "cars on the right"
+  ],
+  "caseIcon": "road",
+  "board": [
+   "noon: shop robbed",
+   "London traffic: LEFT",
+   "3 alibi photos"
+  ],
+  "seg": {
+   "hook": "Three alibi photos, all said to be taken in London. But one street is on the wrong side.",
+   "case": "A watch shop in London is robbed at noon. Each suspect sends a photo from the city. In Britain, cars drive on the left.",
+   "s1": "Kai sends a red bus, passing on the left. He owes the shop money.",
+   "s2": "Lia sends a black taxi on the left, beside a clock tower.",
+   "s3": "Moe sends a busy street, with every car driving on the right.",
+   "challenge": "Whose photo was not taken in London? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Moe. British traffic keeps left. His street drives on the right, so the photo was taken abroad. Kai owed money, but his photo checks out.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0070",
+  "title": "The Poisoned Cork",
+  "cat": "Impossible crime",
+  "solution": "Olga",
+  "mechanism": "Hypodermic needle through an intact cork, hole sealed with wax: sealed bottle poisoned.",
+  "q": "Who poisoned the bottle?",
+  "names": [
+   "Nico",
+   "Olga",
+   "Piet"
+  ],
+  "icons": [
+   "bottle",
+   "candle",
+   "leaving"
+  ],
+  "tags": [
+   "touched every bottle",
+   "red wax under her nails",
+   "abroad until that day"
+  ],
+  "caseIcon": "bottle",
+  "board": [
+   "cork intact",
+   "poison inside the wine",
+   "one dot of red wax"
+  ],
+  "seg": {
+   "hook": "A sealed bottle. An unbroken cork. And still, the wine was poisoned.",
+   "case": "A collector dies after drinking from a bottle he opened himself. The cork was intact, but its top shows one tiny dot of red wax.",
+   "s1": "Nico, the sommelier, touched every bottle, but never uses wax.",
+   "s2": "Olga, the candle maker, has red wax under her fingernails.",
+   "s3": "Piet, the heir, was abroad until the day of the death.",
+   "challenge": "A thin needle can pass through a cork, and wax can seal the hole. Who did it? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Olga. She pushed a thin needle through the cork, injected poison, and sealed the hole with wax. Nico never uses wax. Piet was abroad.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0071",
+  "title": "The Swapped Letters",
+  "cat": "Think like a detective",
+  "solution": "Alma",
+  "mechanism": "Keyboard-layout habit: a German-trained typist on a US keyboard types Z for Y.",
+  "q": "Who typed the threat?",
+  "names": [
+   "Alma",
+   "Ben",
+   "Cora"
+  ],
+  "icons": [
+   "keyboard",
+   "keyboard",
+   "keyboard"
+  ],
+  "tags": [
+   "German keyboard at home",
+   "French keyboard, fired last month",
+   "American keyboard at home"
+  ],
+  "caseIcon": "keyboard",
+  "board": [
+   "typed on a library computer",
+   "\"ZOU\" instead of \"YOU\"",
+   "German vs US: Y and Z differ"
+  ],
+  "seg": {
+   "hook": "A threatening note, and two letters are in the wrong place.",
+   "case": "A threat arrives, typed on a public library computer: \"Zou have until Friday, or zou pay.\" On German keyboards, the Y and Z keys sit in different places from American ones.",
+   "s1": "Alma's home keyboard is German.",
+   "s2": "Ben's home keyboard is French, and he was fired last month.",
+   "s3": "Cora's home keyboard is American, and she was seen leaving late.",
+   "challenge": "Who typed the threat? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Alma. A German typist's fingers hit the wrong key for Y on an American keyboard, and it types Z. Ben's French habit would swap A and Q instead, and Cora types the way the library does.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0072",
+  "title": "The Red Clay",
+  "cat": "Who is the killer",
+  "solution": "Stan",
+  "mechanism": "Geological trace: red clay exists only at the quarry; boot grooves contradict a stay-in-village claim.",
+  "q": "Who walked on that carpet?",
+  "names": [
+   "Rosa",
+   "Stan",
+   "Tara"
+  ],
+  "icons": [
+   "hedge",
+   "boot",
+   "door"
+  ],
+  "tags": [
+   "black soil on her boots",
+   "clean boots, clay in the grooves",
+   "white cement dust"
+  ],
+  "caseIcon": "boot",
+  "board": [
+   "carpet: red clay prints",
+   "village soil: gray",
+   "only the quarry: red clay"
+  ],
+  "seg": {
+   "hook": "A trail of red clay on the carpet. And only one place has red clay.",
+   "case": "A banker is found dead in his study, with red clay boot prints on the carpet. The village soil is gray. Only the old quarry, ten kilometers away, has red clay.",
+   "s1": "Rosa, the farmer, has boots caked in black soil.",
+   "s2": "Stan, the accountant, says he never left the village. His boots are clean, but red clay hides in the grooves.",
+   "s3": "Tara, the driver, has boots covered in white cement dust.",
+   "challenge": "Who walked on that carpet? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Stan. Red clay exists only at the quarry, so his boots had been there. Rosa's soil is black and Tara's dust is white.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0073",
+  "title": "The Pillow Mark",
+  "cat": "Think like a detective",
+  "solution": "Vic",
+  "mechanism": "Pillow creases persist about 30 minutes after waking: a smooth cheek proves he was already up.",
+  "q": "Who was not asleep?",
+  "names": [
+   "Uma",
+   "Wes",
+   "Vic"
+  ],
+  "icons": [
+   "facelines",
+   "facelines",
+   "facesmooth"
+  ],
+  "tags": [
+   "deep red lines",
+   "deep lines, flat hair",
+   "smooth cheek"
+  ],
+  "caseIcon": "clock",
+  "board": [
+   "8:00 bakery robbed",
+   "9:15 police wake them",
+   "creases fade in ~30 min"
+  ],
+  "seg": {
+   "hook": "Three people swear they were asleep. Only two faces agree.",
+   "case": "A bakery is robbed at eight in the morning. At nine fifteen, the police wake three suspects, who all say they slept through the morning. Pillow creases on a cheek take about half an hour to fade.",
+   "s1": "Uma has deep red lines across her cheek.",
+   "s2": "Wes has deep lines too, and his hair is flat on one side.",
+   "s3": "Vic yawns loudly, but his cheek is perfectly smooth.",
+   "challenge": "Who was not asleep? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Vic. Creases last about half an hour. Someone woken at nine fifteen after sleeping shows them. Vic's smooth cheek means he had been up long before, robbing the bakery.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ },
+ {
+  "id": "CL-0074",
+  "title": "The Red Eyes",
+  "cat": "Hidden clue",
+  "solution": "Cal",
+  "mechanism": "Red-eye optics: flash red-eye needs wide pupils in dim light, so a sunny-park selfie with red eyes was not taken at 2 PM.",
+  "q": "Whose selfie was not taken in the sun?",
+  "names": [
+   "Abe",
+   "Bea",
+   "Cal"
+  ],
+  "icons": [
+   "eyes",
+   "eyes",
+   "redeyes"
+  ],
+  "tags": [
+   "squinting, dark eyes",
+   "fired last week",
+   "eyes glowing red"
+  ],
+  "caseIcon": "sun",
+  "board": [
+   "2:00 PM boutique robbed",
+   "selfies stamped 2:00 PM",
+   "red eye = wide pupils = dim light"
+  ],
+  "seg": {
+   "hook": "A sunny afternoon selfie, and the eyes are glowing red. That is wrong.",
+   "case": "A boutique is robbed at two in the afternoon. Three suspects send sunny park selfies, all stamped two o'clock. Flash makes red eyes only when pupils are wide open, in dim light.",
+   "s1": "Abe's eyes are narrow and dark, squinting in the sun.",
+   "s2": "Bea's eyes are dark too. She was fired last week.",
+   "s3": "Cal's eyes glow bright red, and his face is lit by a flash.",
+   "challenge": "Whose selfie was not taken in the sun? Five seconds. Five. Four. Three. Two. One.",
+   "reveal": "It was Cal. In bright daylight, pupils shrink and red eye never appears. Red glowing eyes mean dim light, so his selfie was taken indoors or at night. Bea only looked guilty.",
+   "outro": "Did you solve it? Comment your answer. This is ClueLab."
+  },
+  "src": null
+ }
+]
