@@ -1,5 +1,11 @@
 #!/bin/bash
+# usage: finalize.sh CL-XXXX  (needs out/ID_v.mp4 from render.mjs)
+set -e
 ID=$1
-cd /tmp/claude-0/-home-user-videos/5391c789-2b09-5be2-af06-a8cea424721f/scratchpad/factory
-ffmpeg -y -loglevel error -i out/${ID}.mp4 -vf "scale=in_range=pc:out_range=tv:flags=bicubic,format=yuv420p" -c:v libx264 -preset medium -crf 18 -profile:v high -color_range tv -colorspace bt709 -color_primaries bt709 -color_trc bt709 -r 30 -c:a aac -b:a 192k -ar 48000 -movflags +faststart final/${ID}.mp4
+mkdir -p out final
+python3 mix.py $ID
+DUR=$(python3 -c "import json;print(json.load(open('props/${ID}.json'))['ep']['dur'])")
+# loudness-normalise the mixed audio (-16 LUFS), then mux with the rendered video
+ffmpeg -y -loglevel error -i out/${ID}_mix.wav -af "loudnorm=I=-16:TP=-1.5:LRA=9" -ar 48000 out/${ID}_norm.wav
+ffmpeg -y -loglevel error -i out/${ID}_v.mp4 -i out/${ID}_norm.wav -map 0:v -map 1:a -c:v libx264 -preset medium -crf 18 -profile:v high -pix_fmt yuv420p -r 30 -c:a aac -b:a 192k -ar 48000 -movflags +faststart -t $DUR final/${ID}.mp4
 echo FINAL $ID

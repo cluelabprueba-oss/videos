@@ -1,6 +1,4 @@
 #!/bin/bash
-# usage: qc.sh CL-XXXX  -> prints one QC line
-cd /tmp/claude-0/-home-user-videos/5391c789-2b09-5be2-af06-a8cea424721f/scratchpad/factory
 ID=$1; F=final/$ID.mp4
 V=$(ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,pix_fmt,width,height,r_frame_rate -of csv=p=0 $F)
 A=$(ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate -of csv=p=0 $F)

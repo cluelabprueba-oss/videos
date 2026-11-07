@@ -182,7 +182,7 @@ export const Main: React.FC<Props> = ({ep}) => {
 
         {idx >= 0 && (
           <g>
-            <Chip label={`SUSPECT ${idx + 1} OF 3`} />
+            <Chip label={`${ep.chip || 'SUSPECT'} ${idx + 1} OF 3`} />
             {lineup(idx, true, false, false, 300).map((el, i) => <g key={i} transform="translate(0 0)">{el}</g>)}
             <Portrait i={idx} x={150} y={600} s={2.1} p={sp} hot />
             <Txt x={375} y={1160} size={74} font={marker} color={INK} op={clamp(sp * 2)}>{names[idx].toUpperCase()}</Txt>
@@ -223,7 +223,7 @@ export const Main: React.FC<Props> = ({ep}) => {
             <Portrait i={guiltyIdx} x={340} y={560} s={2.0} p={sp} hot />
             <g transform={`rotate(-7 540 1125)`} opacity={clamp((t - starts[cur] - 0.5) / 0.25)}>
               <Sketch ops={[R(0, 0, 640, 130, {stroke: RED, strokeWidth: 10, roughness: 2})]} x={220} y={1060} progress={clamp((t - starts[cur] - 0.5) / 0.5)} seed={9} />
-              <Txt x={540} y={1155} size={92} font={marker} color={RED}>GUILTY</Txt>
+              <Txt x={540} y={1155} size={(ep.stamp || 'GUILTY').length > 8 ? 58 : 92} font={marker} color={RED}>{ep.stamp || 'GUILTY'}</Txt>
             </g>
             <Txt x={540} y={1300} size={70} font={marker} color={INK} op={clamp(sp * 2)}>{ep.solution.toUpperCase()}</Txt>
           </g>
