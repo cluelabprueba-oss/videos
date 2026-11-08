@@ -1,0 +1,20 @@
+import json
+H_IG="#mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames"
+H_TT="#mystery #riddle #detective #whodunit #brainteaser #ClueLab"
+S={
+"CL-0087":("A silver clock stolen. A cellar door locked all week. A web across its frame. Dora, Emil or Fritz? Comment your answer before the reveal.","A spider saw everything. Someone invented a burglar. Dora, Emil or Fritz? Comment your answer.","The spider web that exposed a lie #shorts"),
+"CL-0088":("Three alibis. Three time zones. One call that never happened. Mei, Noel or Pru? Comment your answer before the reveal.","New York, Tokyo, Sydney: one of these calls is impossible. Mei, Noel or Pru? Comment your answer.","Three time zones, one fake alibi #shorts"),
+"CL-0089":("A London robbery. Three selfies stamped the same day. One belongs to another season. Gus, Ida or Jon? Comment your answer before the reveal.","Three selfies, one date, one wrong season. Gus, Ida or Jon? Comment your answer.","Which selfie is from another season? #shorts"),
+"CL-0090":("A burned barn. A smell of gasoline. Three fuel receipts. Kay, Len or Mo? Comment your answer before the reveal.","Three receipts. One of them does not fit the tank. Kay, Len or Mo? Comment your answer.","The fuel receipt that does not add up #shorts"),
+"CL-0091":("A mansion robbed at dawn. Three sunrise videos from faraway beaches. One cannot be real. Nat, Olive or Pat? Comment your answer before the reveal.","The sun always rises in the east. Whose sunrise broke the rule? Nat, Olive or Pat? Comment your answer.","The sunrise that cannot be real #shorts"),
+"CL-0092":("Stolen pearls. Three necklaces. Two are glass. The test uses your teeth. Qin, Ruth or Sam? Comment your answer before the reveal.","Weight and shine can be faked. Your teeth cannot be fooled. Qin, Ruth or Sam? Comment your answer.","Real pearls or glass? The tooth test #shorts"),
+"CL-0093":("A hotel robbery. An elevator with no thirteenth floor. One alibi in a room that does not exist. Tess, Uli or Vince? Comment your answer before the reveal.","Count the floors. One alibi is in a room that does not exist. Tess, Uli or Vince? Comment your answer.","The hotel room that does not exist #shorts"),
+"CL-0094":("A farmer found dead at dawn. Three baskets of eggs. One egg floats. Abel, Cass or Dev? Comment your answer before the reveal.","Three baskets of fresh eggs. One of them floats. Abel, Cass or Dev? Comment your answer.","The egg that floated: who lied? #shorts"),
+"CL-0095":("A stolen necklace. A window five meters up. A ladder four meters long. Fay, Hugo or Jude? Comment your answer before the reveal.","A ladder too short for the window. Who really opened it? Fay, Hugo or Jude? Comment your answer.","Five meters up, a four meter ladder #shorts"),
+"CL-0096":("A getaway car. A blaring horn. Three porch witnesses and one impossible description. Kira, Lou or Mace? Comment your answer before the reveal.","The horn rose as the car drove away? Physics says no. Kira, Lou or Mace? Comment your answer.","The horn that rose as the car left #shorts"),
+"CL-0097":("A stolen painting. A figure in a wig and a long coat. Look at the buttons. Nell, Opal or Rhys? Comment your answer before the reveal.","The camera saw a woman. The coat says otherwise. Nell, Opal or Rhys? Comment your answer.","The coat buttons that gave the thief away #shorts"),
+"CL-0098":("A midnight jewel heist. Three photos of the night sky. One has the stars in the wrong half of the world. Sid, Tam or Una? Comment your answer before the reveal.","One night sky is in the wrong hemisphere. Sid, Tam or Una? Comment your answer.","Whose night sky is fake? #shorts"),
+}
+out={k:dict(ig=f"{ig} {H_IG}",tt=f"{tt} {H_TT}",yt=yt,ytd="A ClueLab mystery: three suspects, one deduction. Can you solve it before the countdown ends? Comment your answer! #mystery #riddle #detective #whodunit #shorts") for k,(ig,tt,yt) in S.items()}
+json.dump(out,open('data/social87.json','w'),indent=1)
+for k,v in out.items(): print(k,len(v['ig']),len(v['tt']),len(v['yt']))

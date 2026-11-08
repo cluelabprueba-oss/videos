@@ -1,0 +1,8 @@
+node_modules/
+out/
+props/
+final/
+ep/
+shared/
+stills/
+render.log
