@@ -1,0 +1,74 @@
+{
+ "CL-0111": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ },
+ "CL-0112": {
+  "status": "SCHEDULED (IDEA -> VALIDATED -> SCRIPTED -> PRODUCED -> GITHUB_UPLOADED -> METRICOOL_IMPORTED -> SCHEDULED, all 2026-11-11; confirmed in createScheduledPost response, providers PENDING until publish)",
+  "slot": "Scheduled slot: 2026-11-12T14:00:00 Europe/Madrid = 2026-11-13 00:00 Australia/Sydney",
+  "raw": "Raw URL: https://raw.githubusercontent.com/cluelabprueba-oss/videos/claude/ecstatic-volta-yqigi3/CL-0112.mp4 (branch URL; used by Metricool)",
+  "captions": "Captions: IG: A downpour all night. A necklace gone at 8:30. Three guests, three umbrellas. Ines, Jonah or Kara? Comment your answer before the reveal. #mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames\n  TikTok: Three guests, three umbrellas. One never saw the rain. Ines, Jonah or Kara? Comment your answer. #mystery #riddle #detective #whodunit #brainteaser #ClueLab\n  YouTube title: Three umbrellas. One never saw the rain #shorts",
+  "video": "Video: CL-0112.mp4 \u00b7 1080x1920 \u00b7 30 fps \u00b7 H.264 yuv420p + AAC 48 kHz \u00b7 visuals Remotion + Rough.js (factory-v5); audio ElevenLabs NARRATOR ROB eleven_v4 (narration x1.107) + eleven_music_v2_5 bed + eleven_text_to_sound_v2 SFX (shared bed/stinger/tick from flow iL5uTWmFtNSkct1zlUMk), narration + Scribe flow 47mQO929UKxXmVDZPBPk; logo outro = official cluelab_logo.png, unmodified",
+  "qc": "QC: CL-0112 | v=h264,1080,1920,yuv420p,30/1, | a=aac,48000 | dur=59.500000 | decode_errors=0 | LUFS=-15.9 | bytes=11780860 \u00b7 subtitle sync from Scribe word timestamps (unmatched words 0) \u00b7 reveal frame checked, solution correct",
+  "sha": "SHA-256: ad5961cb94ad7977ace97a6d52bcfe5ba801e2681c3280d829ffc2244d70e144 (re-download from raw URL verified identical)",
+  "metricool": "Metricool: post id 424836634 \u00b7 TikTok cluelab2 + Instagram Reel clue_lab + YouTube Short \u00b7 AI-content declaration ON for all three \u00b7 media accepted (rehosted by Metricool)"
+ },
+ "CL-0113": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ },
+ "CL-0114": {
+  "status": "SCHEDULED (IDEA -> VALIDATED -> SCRIPTED -> PRODUCED -> GITHUB_UPLOADED -> METRICOOL_IMPORTED -> SCHEDULED, all 2026-11-11; confirmed in createScheduledPost response, providers PENDING until publish)",
+  "slot": "Scheduled slot: 2026-11-12T16:00:00 Europe/Madrid = 2026-11-13 02:00 Australia/Sydney",
+  "raw": "Raw URL: https://raw.githubusercontent.com/cluelabprueba-oss/videos/claude/ecstatic-volta-yqigi3/CL-0114.mp4 (branch URL; used by Metricool)",
+  "captions": "Captions: IG: A locked door. Poison on his tongue. Clean food, clean tea. Ruth, Simon or Tara? Comment your answer before the reveal. #mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames\n  TikTok: He died alone behind a locked door. Ruth, Simon or Tara? Comment your answer. #mystery #riddle #detective #whodunit #brainteaser #ClueLab\n  YouTube title: Poisoned behind a locked door. How? #shorts",
+  "video": "Video: CL-0114.mp4 \u00b7 1080x1920 \u00b7 30 fps \u00b7 H.264 yuv420p + AAC 48 kHz \u00b7 visuals Remotion + Rough.js (factory-v5); audio ElevenLabs NARRATOR ROB eleven_v4 (narration x1.08) + eleven_music_v2_5 bed + eleven_text_to_sound_v2 SFX (shared bed/stinger/tick from flow iL5uTWmFtNSkct1zlUMk), narration + Scribe flow 47mQO929UKxXmVDZPBPk; logo outro = official cluelab_logo.png, unmodified",
+  "qc": "QC: CL-0114 | v=h264,1080,1920,yuv420p,30/1, | a=aac,48000 | dur=57.610000 | decode_errors=0 | LUFS=-16.0 | bytes=11009560 \u00b7 subtitle sync from Scribe word timestamps (unmatched words 0) \u00b7 reveal frame checked, solution correct",
+  "sha": "SHA-256: ddb9f4a6ed217b3e2f917e3b77c6fd5e8a9c3685824ca6eada73fdd6349b6f70 (re-download from raw URL verified identical)",
+  "metricool": "Metricool: post id 424836815 \u00b7 TikTok cluelab2 + Instagram Reel clue_lab + YouTube Short \u00b7 AI-content declaration ON for all three \u00b7 media accepted (rehosted by Metricool)"
+ },
+ "CL-0115": {
+  "status": "SCHEDULED (IDEA -> VALIDATED -> SCRIPTED -> PRODUCED -> GITHUB_UPLOADED -> METRICOOL_IMPORTED -> SCHEDULED, all 2026-11-11; confirmed in createScheduledPost response, providers PENDING until publish)",
+  "slot": "Scheduled slot: 2026-11-12T18:00:00 Europe/Madrid = 2026-11-13 04:00 Australia/Sydney",
+  "raw": "Raw URL: https://raw.githubusercontent.com/cluelabprueba-oss/videos/claude/ecstatic-volta-yqigi3/CL-0115.mp4 (branch URL; used by Metricool)",
+  "captions": "Captions: IG: A beach hut break-in. Three trails of footprints in the wet sand. Only one was running. Vera, Wim or Yara? Comment your answer before the reveal. #mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames\n  TikTok: Three trails in the sand. One was running. Vera, Wim or Yara? Comment your answer. #mystery #riddle #detective #whodunit #brainteaser #ClueLab\n  YouTube title: Three trails in the sand: who ran? #shorts",
+  "video": "Video: CL-0115.mp4 \u00b7 1080x1920 \u00b7 30 fps \u00b7 H.264 yuv420p + AAC 48 kHz \u00b7 visuals Remotion + Rough.js (factory-v5); audio ElevenLabs NARRATOR ROB eleven_v4 (narration x1.159) + eleven_music_v2_5 bed + eleven_text_to_sound_v2 SFX (shared bed/stinger/tick from flow iL5uTWmFtNSkct1zlUMk), narration + Scribe flow 47mQO929UKxXmVDZPBPk; logo outro = official cluelab_logo.png, unmodified",
+  "qc": "QC: CL-0115 | v=h264,1080,1920,yuv420p,30/1, | a=aac,48000 | dur=59.500000 | decode_errors=0 | LUFS=-16.2 | bytes=11705445 \u00b7 subtitle sync from Scribe word timestamps (unmatched words 0) \u00b7 reveal frame checked, solution correct",
+  "sha": "SHA-256: f02775388827ad84e353af6a861a19cf5de856826e82a4e1e20360dd88523a53 (re-download from raw URL verified identical)",
+  "metricool": "Metricool: post id 424836893 \u00b7 TikTok cluelab2 + Instagram Reel clue_lab + YouTube Short \u00b7 AI-content declaration ON for all three \u00b7 media accepted (rehosted by Metricool)"
+ },
+ "CL-0116": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ },
+ "CL-0117": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ },
+ "CL-0118": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ },
+ "CL-0119": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ },
+ "CL-0120": {
+  "status": "SCHEDULED (IDEA -> VALIDATED -> SCRIPTED -> PRODUCED -> GITHUB_UPLOADED -> METRICOOL_IMPORTED -> SCHEDULED, all 2026-11-11; confirmed in createScheduledPost response, providers PENDING until publish)",
+  "slot": "Scheduled slot: 2026-11-12T20:00:00 Europe/Madrid = 2026-11-13 06:00 Australia/Sydney",
+  "raw": "Raw URL: https://raw.githubusercontent.com/cluelabprueba-oss/videos/claude/ecstatic-volta-yqigi3/CL-0120.mp4 (branch URL; used by Metricool)",
+  "captions": "Captions: IG: A locked house. No broken window. The car keys are gone anyway. Abel, Bree or Cyril? Comment your answer before the reveal. #mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames\n  TikTok: No key, no broken window, and the car is gone. Abel, Bree or Cyril? Comment your answer. #mystery #riddle #detective #whodunit #brainteaser #ClueLab\n  YouTube title: The car keys vanished from a locked house #shorts",
+  "video": "Video: CL-0120.mp4 \u00b7 1080x1920 \u00b7 30 fps \u00b7 H.264 yuv420p + AAC 48 kHz \u00b7 visuals Remotion + Rough.js (factory-v5); audio ElevenLabs NARRATOR ROB eleven_v4 (narration x1.146) + eleven_music_v2_5 bed + eleven_text_to_sound_v2 SFX (shared bed/stinger/tick from flow iL5uTWmFtNSkct1zlUMk), narration + Scribe flow 47mQO929UKxXmVDZPBPk; logo outro = official cluelab_logo.png, unmodified",
+  "qc": "QC: CL-0120 | v=h264,1080,1920,yuv420p,30/1, | a=aac,48000 | dur=59.500000 | decode_errors=0 | LUFS=-16.1 | bytes=10901012 \u00b7 subtitle sync from Scribe word timestamps (unmatched words 0) \u00b7 reveal frame checked, solution correct",
+  "sha": "SHA-256: 87a363b629fef4078a40febc0bd16fc84f5830574e72546bc787e310a83cefb1 (re-download from raw URL verified identical)",
+  "metricool": "Metricool: post id 424836976 \u00b7 TikTok cluelab2 + Instagram Reel clue_lab + YouTube Short \u00b7 AI-content declaration ON for all three \u00b7 media accepted (rehosted by Metricool)"
+ },
+ "CL-0121": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ },
+ "CL-0122": {
+  "status": "FAILED (2026-11-11: ElevenLabs credit quota exhausted, 298 of 131000 credits left; narration not generated. Script validated and unused: re-queue for production when credits renew. No video, not scheduled)",
+  "slot": "Scheduled slot: none"
+ }
+}

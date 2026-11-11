@@ -17,7 +17,7 @@ for i,e in enumerate(eps):
        f"Solution: {e['solution']}",
        f"Mechanism (do not reuse): {e['mechanism']}",
        f"Script (EN): {full}",
-       f"Planned slot: {mad:%Y-%m-%dT%H:%M:%S} Europe/Madrid = {syd:%Y-%m-%d %H:%M} Australia/Sydney"]
+       s.get('slot',f"Planned slot: {mad:%Y-%m-%dT%H:%M:%S} Europe/Madrid = {syd:%Y-%m-%d %H:%M} Australia/Sydney")]
     for k in ['raw','captions','video','qc','sha','metricool']:
         if k in s: L.append(s[k])
     open(f"{out}/{e['id']}.md",'w').write('\n'.join(L)+'\n')
