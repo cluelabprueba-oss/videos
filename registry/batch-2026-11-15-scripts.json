@@ -1,0 +1,266 @@
+[
+{
+ "id":"CL-0003","title":"The Raspberry Ice","category":"Who is the killer",
+ "hook":"Two glasses. Same punch. Only one of them lived.",
+ "setting":"Garden party at the Vance villa. Hot summer evening.",
+ "props":["glass","glass","icecube"],
+ "suspects":[
+  {"name":"CLARA","role":"Old friend","line":"Brought her homemade frozen raspberry ice cubes. Drank one glass fast, left at 8:00."},
+  {"name":"HUGO","role":"Bartender","line":"Has a criminal record. Ladled every glass from the same bowl."},
+  {"name":"MAYA","role":"Sister","line":"Inherits everything. Never touched the punch bowl."}
+ ],
+ "clues":["Clara and Theo drank from the SAME bowl","The ice cubes were Clara's","Theo sipped slowly. He collapsed at 8:40"],
+ "question":"WHO POISONED THEO?",
+ "answer":"CLARA",
+ "solution":"Clara. The poison was frozen inside her raspberry ice cubes. She drank fast, before the ice melted. Theo sipped slowly, and as the ice melted, the poison was released.",
+ "mechanism":"Poison frozen inside ice cubes; fast drinker survives before ice melts.",
+ "narration":"Two glasses. Same punch. Only one of them lived. A hot summer evening at the Vance villa. Clara arrives with a gift: her homemade frozen raspberry ice cubes, dropped into the punch bowl. Hugo the bartender, a man with a criminal record, ladles every glass from that same bowl. Clara drinks hers in one go, and leaves at eight. Theo sips his slowly, all evening. At eight forty, Theo collapses. Poisoned. Maya, his sister, inherits everything. But she never touched the bowl. Who poisoned Theo? You have five seconds. ... It was Clara. The poison was frozen inside her ice cubes. She drank fast, before the ice could melt. Theo sipped slowly, and as the ice melted, the poison was released into his glass. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"Same bowl. Same punch. One survived. How? Drop your suspect before the reveal. #mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle",
+  "instagram":"A summer party. One punch bowl. Two glasses — and only one survivor. Clara, Hugo or Maya? Comment your answer before the reveal. #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "yt_title":"Same punch, one survivor: who poisoned Theo? #shorts",
+  "yt_desc":"Three suspects, one punch bowl and a deadly detail. Can you solve it before the countdown? Comment your answer! #mystery #riddle #detective #whodunit #shorts"}
+},
+{
+ "id":"CL-0004","title":"The Frost Line","category":"Spot the lie",
+ "hook":"One of these drivers is lying. The windshield gives it away.",
+ "setting":"Elm Street, 6:00 AM. Freezing night. A hit-and-run at 4:00 AM.",
+ "props":["car","snowflake","car"],
+ "suspects":[
+  {"name":"LEO","role":"Neighbor","line":"\"My car spent the night in my garage.\" Windshield: clear."},
+  {"name":"NORA","role":"Neighbor","line":"\"Parked on the street since 9 PM. Never moved.\" Windshield: clear."},
+  {"name":"PETE","role":"Neighbor","line":"\"Parked on the street since 9 PM. Never moved.\" Windshield: frosted."}
+ ],
+ "clues":["Freezing all night: every street car is frosted","Leo's car was inside a garage","Nora's car is on the street, and clear"],
+ "question":"WHO IS LYING?",
+ "answer":"NORA",
+ "solution":"Nora. A car parked outside all night would be covered in frost, like Pete's. Hers was clear because the engine had been running: she was driving at 4 AM. Leo's car is clear only because it was in the garage.",
+ "mechanism":"Frost absent on a car claimed to be parked outside all night (engine heat).",
+ "narration":"One of these drivers is lying. And the windshield gives it away. Four A.M. A hit-and-run on Elm Street. It was the coldest night of the year. At six, the police check every car on the block. Leo says: my car spent the night in my garage. His windshield is clear. Nora says: parked on the street since nine, never moved. Her windshield is clear. Pete says: parked on the street since nine, never moved. His windshield is white with frost. Who is lying? You have five seconds. ... It was Nora. On a freezing night, a car parked outside is covered in frost, just like Pete's. Nora's windshield was clear because her engine had been running. She was driving at four A.M. Leo's car was clear only because it slept in a garage. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"Hit-and-run at 4 AM. Three cars. Three alibis. One lie hiding in plain sight. Who is it? #mystery #riddle #detective #spotthelie #brainteaser #ClueLab #puzzle",
+  "instagram":"The coldest night of the year. A hit-and-run at 4 AM. Leo, Nora or Pete — who's lying? Comment before the reveal. #mystery #riddles #detective #spotthelie #brainteaser #ClueLab #puzzle #mindgames",
+  "yt_title":"Three drivers, one lie: who did the hit-and-run? #shorts",
+  "yt_desc":"A freezing night, three cars and one tiny detail. Can you spot the lie before the countdown? #mystery #riddle #detective #brainteaser #shorts"}
+},
+{
+ "id":"CL-0005","title":"Glass on the Lawn","category":"Hidden clue",
+ "hook":"The burglar broke in through the window. Or did he?",
+ "setting":"Grant house. Jewelry stolen overnight. Insured for half a million.",
+ "props":["window","shards","footprints"],
+ "suspects":[
+  {"name":"MR. GRANT","role":"Owner","line":"\"A thief smashed the back window from the garden.\" Jewelry insured last month."},
+  {"name":"DEX","role":"Gardener","line":"Muddy boots. Works in the garden every day."},
+  {"name":"MRS. PIKE","role":"Neighbor","line":"Heard glass breaking at 2 AM. Saw no one."}
+ ],
+ "clues":["Muddy footprints lead from the window inside","Almost all the broken glass lies OUTSIDE, on the lawn","Jewelry insured one month ago"],
+ "question":"WHAT IS THE HIDDEN CLUE?",
+ "answer":"THE GLASS",
+ "solution":"The glass. A window smashed from the garden scatters glass INSIDE the house. Here the shards fell on the lawn: it was broken from inside. Mr. Grant staged the burglary for the insurance. The muddy prints were planted.",
+ "mechanism":"Direction of broken glass reveals window was broken from inside (staged burglary).",
+ "narration":"The burglar broke in through the window. Or did he? Two A.M. The Grant house. A neighbor hears glass breaking. In the morning, the jewelry is gone. Mister Grant tells the police: a thief smashed the back window from the garden. Muddy footprints lead from the window into the house. The gardener, Dex, has muddy boots. The jewelry was insured just last month. Under the broken window, almost all the glass is lying outside, on the lawn. What is the hidden clue? You have five seconds. ... It's the glass. A window smashed from the garden throws its glass into the house. These shards landed on the lawn. The window was broken from the inside. Mister Grant staged the burglary for the insurance money, and planted the muddy prints. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"A smashed window. Muddy footprints. Missing jewelry. Something in this scene doesn't add up. Spot it? #mystery #riddle #detective #hiddenclue #brainteaser #ClueLab #puzzle",
+  "instagram":"2 AM. Breaking glass. The jewelry is gone. One detail tells the real story. What did you notice? Comment before the reveal. #mystery #riddles #detective #brainteaser #ClueLab #puzzle #mindgames #crimepuzzle",
+  "yt_title":"The burglar came through the window… or did he? #shorts",
+  "yt_desc":"A staged scene hides one detail. Can you find it before the countdown? Comment your answer! #mystery #riddle #detective #brainteaser #shorts"}
+},
+{
+ "id":"CL-0006","title":"Drowned on the Beach","category":"Impossible crime",
+ "hook":"He drowned. But not in the sea.",
+ "setting":"Fishing town of Port Ash. A sailor found dead on the beach at dawn.",
+ "props":["wave","bathtub","soap"],
+ "suspects":[
+  {"name":"CAPTAIN ROSS","role":"Boat owner","line":"Argued with the victim last night. Lives on his boat. Shower only."},
+  {"name":"INES","role":"Innkeeper","line":"Victim rented a room. Every room: shower only."},
+  {"name":"ELISE","role":"Widow","line":"Victim visited her last night. Old house with a bathtub. Lavender soap."}
+ ],
+ "clues":["Found on the beach, as if drowned at sea","Lungs: FRESH water, traces of lavender soap","Only one suspect owns a bathtub"],
+ "question":"WHERE DID HE REALLY DIE?",
+ "answer":"ELISE'S BATHTUB",
+ "solution":"In Elise's bathtub. Drowning at sea fills the lungs with salt water. His lungs held fresh water with lavender soap: he was drowned in a bath, then carried to the beach. Only Elise has a bathtub and lavender soap.",
+ "mechanism":"Fresh water + soap in lungs of a 'sea drowning' victim; body moved.",
+ "narration":"He drowned. But not in the sea. Dawn in the fishing town of Port Ash. A sailor is found dead on the beach, soaked, as if the waves had brought him in. Last night he argued with Captain Ross, who lives on his boat. He was renting a room at Ines's inn. And he visited Elise, a widow in an old house by the harbor. The autopsy is strange. His lungs are full of fresh water, with traces of lavender soap. The boat and the inn only have showers. Elise's house has a bathtub. Where did he really die? You have five seconds. ... In Elise's bathtub. A man who drowns at sea breathes in salt water. His lungs held fresh water and soap. He was drowned in a bath, then carried to the beach. Only Elise had a tub, and lavender soap. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"Found on the beach. Drowned. But the sea didn't kill him. Where did he really die? #mystery #riddle #detective #impossiblecrime #brainteaser #ClueLab #puzzle",
+  "instagram":"A sailor washed up at dawn. Everyone says the sea took him. The autopsy says otherwise. Ross, Ines or Elise? Comment before the reveal. #mystery #riddles #detective #whodunit #ClueLab #puzzle #mindgames",
+  "yt_title":"He drowned… but not in the sea. Where did he die? #shorts",
+  "yt_desc":"An impossible drowning and one autopsy detail. Solve it before the countdown! #mystery #riddle #detective #whodunit #shorts"}
+},
+{
+ "id":"CL-0007","title":"The Silent Dog","category":"Think like a detective",
+ "hook":"The most important clue in this case is a sound nobody heard.",
+ "setting":"Moreau farmhouse. The cash box stolen between 1 and 3 AM.",
+ "props":["dog","house","moon"],
+ "suspects":[
+  {"name":"THE COURIER","role":"Stranger","line":"Seen near the gate at midnight. Nobody knows him."},
+  {"name":"JONAS","role":"New tenant","line":"Moved in yesterday. Bruno barked at him all morning."},
+  {"name":"FELIX","role":"Nephew","line":"Walks Bruno every single day."}
+ ],
+ "clues":["Bruno barks at anyone he doesn't know","The neighbor was awake all night: total silence","The thief walked right past Bruno's kennel"],
+ "question":"WHO TOOK THE CASH BOX?",
+ "answer":"FELIX",
+ "solution":"Felix. Bruno barks at every stranger, even at the new tenant. That night he stayed silent while the thief walked past his kennel. So the thief was someone Bruno knew well: the nephew who walks him every day.",
+ "mechanism":"Guard dog's silence proves the intruder was familiar to the dog.",
+ "narration":"The most important clue in this case is a sound nobody heard. The Moreau farmhouse. Between one and three A.M., the cash box disappears. To reach it, the thief had to walk right past the kennel of Bruno, the guard dog. Bruno barks at anyone he doesn't know. Yesterday he barked all morning at Jonas, the new tenant. A courier nobody knows was seen near the gate at midnight. Felix, the nephew, walks Bruno every single day. The neighbor was awake all night. She heard nothing. Not a single bark. Who took the cash box? You have five seconds. ... It was Felix. Bruno barks at every stranger. That night, he stayed silent as the thief walked past him. The thief was someone Bruno knew and trusted. The nephew who walks him every day. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"A guard dog. A stolen cash box. And the loudest clue is silence. Think like a detective. #mystery #riddle #detective #thinklikeadetective #brainteaser #ClueLab #puzzle",
+  "instagram":"The thief walked right past the guard dog. Courier, tenant or nephew? Think like a detective and comment before the reveal. #mystery #riddles #detective #whodunit #ClueLab #puzzle #mindgames #brainteaser",
+  "yt_title":"The clue is a sound nobody heard. Who took the cash? #shorts",
+  "yt_desc":"A guard dog, three suspects and one silent night. Solve it before the countdown! #mystery #riddle #detective #whodunit #shorts"}
+},
+{
+ "id":"CL-0008","title":"The Word Nobody Said","category":"Psychological trap",
+ "hook":"The detective told them almost nothing. One of them said too much.",
+ "setting":"Hale & Sons office. Mr. Hale found dead behind a locked door. Silenced pistol, nobody heard a thing.",
+ "props":["door","speech","magnifier"],
+ "suspects":[
+  {"name":"RITA","role":"Business partner","line":"Furious, shouting: \"I'm not sorry he's gone!\""},
+  {"name":"OWEN","role":"Accountant","line":"Holds a gun licence. Stays silent."},
+  {"name":"MILES","role":"Assistant","line":"Calm: \"Who would shoot a man like that?\""}
+ ],
+ "clues":["Police said only: \"Mr. Hale was found dead\"","Silenced weapon: nobody heard a shot","No one was told HOW he died"],
+ "question":"WHO GAVE THEMSELVES AWAY?",
+ "answer":"MILES",
+ "solution":"Miles. The police only said Mr. Hale was found dead. Nobody heard a shot, and nobody was told how he died. Miles asked who would 'shoot' him: only the killer could know it was a gun.",
+ "mechanism":"Guilty knowledge: suspect names the undisclosed method of death.",
+ "narration":"The detective told them almost nothing. One of them said too much. Mister Hale is found dead in his office. The weapon had a silencer. Nobody in the building heard a thing. The detective gathers three people and says only this: Mister Hale was found dead this morning. Rita, his partner, shouts: I'm not sorry he's gone. Owen, the accountant, who owns a licensed gun, says nothing. Miles, the assistant, quietly asks: who would shoot a man like that? Who gave themselves away? You have five seconds. ... It was Miles. Nobody heard a shot, and the detective never said how Hale died. Miles said shoot. Only the killer could know it was a gun. Rita's anger and Owen's licence were just noise. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"The detective said one sentence. One suspect answered with one word too many. Did you catch it? #mystery #riddle #detective #psychology #brainteaser #ClueLab #mindgames",
+  "instagram":"A silent weapon. A detective who says almost nothing. Rita, Owen or Miles — who gave themselves away? Comment before the reveal. #mystery #riddles #detective #psychology #ClueLab #puzzle #mindgames #brainteaser",
+  "yt_title":"One word gave the killer away. Did you hear it? #shorts",
+  "yt_desc":"Three suspects, one sentence from the detective, and one slip. Catch it before the countdown! #mystery #riddle #detective #psychology #shorts"}
+},
+{
+ "id":"CL-0009","title":"The Dry Umbrella","category":"Who is the killer",
+ "hook":"It started raining at ten. One of them forgot.",
+ "setting":"The town library. The librarian attacked at 10:30 PM. The rain started at exactly 10:00.",
+ "props":["umbrella","rain","boots"],
+ "suspects":[
+  {"name":"ANA","role":"Volunteer","line":"Umbrella dripping in the hall. \"I walked my dog at 10:45.\""},
+  {"name":"BRUNO","role":"Ex-employee","line":"Fired last week. \"Home since 9.\" Umbrella dry, shoes dry, coat dry."},
+  {"name":"CELIA","role":"Library board","line":"\"Home since 9.\" Umbrella dry. Boots soaked, by the radiator."}
+ ],
+ "clues":["The rain started at exactly 10:00 PM","Police visit every suspect at 11:00 PM","Celia's boots are soaked through"],
+ "question":"WHO ATTACKED THE LIBRARIAN?",
+ "answer":"CELIA",
+ "solution":"Celia. She claims she was home since 9, an hour before the rain began. But her boots were soaked: she was out in the rain after 10. Ana admits going out, and Bruno, despite his motive, is completely dry.",
+ "mechanism":"Wet footwear contradicts an alibi that predates the start of the rain.",
+ "narration":"It started raining at ten. One of them forgot. Ten thirty P.M. The town librarian is attacked between the shelves. The rain began at exactly ten o'clock. At eleven, the police knock on three doors. Ana, a volunteer: her umbrella is dripping in the hall. She says she walked her dog at ten forty-five. Bruno, fired from the library last week, says he's been home since nine. His umbrella, coat and shoes are dry. Celia, from the library board, says she's been home since nine too. Her umbrella is dry. But her boots, drying by the radiator, are soaked through. Who attacked the librarian? You have five seconds. ... It was Celia. She says she was home since nine, an hour before the rain. So how did her boots get soaked? She was out in the storm after ten. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"Rain started at 10. The attack was at 10:30. Three suspects, three doorways, one mistake. Who? #mystery #riddle #detective #whodunit #brainteaser #ClueLab #puzzle",
+  "instagram":"A stormy night, a library attack, and three alibis checked at the door. Ana, Bruno or Celia? Comment before the reveal. #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "yt_title":"It started raining at 10. Who forgot? #shorts",
+  "yt_desc":"Three suspects, one storm and one detail at the door. Solve it before the countdown! #mystery #riddle #detective #whodunit #shorts"}
+},
+{
+ "id":"CL-0010","title":"Sunset Over the Sea","category":"Spot the lie",
+ "hook":"Two alibis on the same beach. Only one could be true.",
+ "setting":"Port Wren, a town on the EAST coast. The ocean lies to the east. A boat was stolen from the marina.",
+ "props":["sun","wave","compass"],
+ "suspects":[
+  {"name":"MARA","role":"Swimmer","line":"\"At 6 AM I watched the sun rise over the sea.\""},
+  {"name":"GIDEON","role":"Fisherman","line":"Owes money to the boat owner. \"At 6 AM I was at the café.\" The barista confirms."},
+  {"name":"SETH","role":"Photographer","line":"\"At 8 PM I photographed the sun setting over the sea.\""}
+ ],
+ "clues":["Port Wren faces the ocean to the EAST","The boat vanished at 8 PM","The sun rises in the east, sets in the west"],
+ "question":"WHO IS LYING?",
+ "answer":"SETH",
+ "solution":"Seth. On an east-facing coast, the sun rises over the sea but sets behind the land, in the west. He could never have photographed it setting over the sea. Mara's sunrise fits perfectly.",
+ "mechanism":"Geography: sunset cannot be seen over the ocean on an east-facing coast.",
+ "narration":"Two alibis on the same beach. Only one of them could be true. Port Wren, a little town on the east coast. The ocean lies to the east. At eight P.M., a boat is stolen from the marina. Mara, a swimmer, says: at six A.M. I watched the sun rise over the sea. Gideon, a fisherman who owes money to the boat's owner, says he was at the café. The barista confirms it. Seth, a photographer, says: at eight P.M. I was on the beach, photographing the sun setting over the sea. Who is lying? You have five seconds. ... It was Seth. On an east coast, the sun rises over the sea, exactly as Mara said. But it sets in the west, behind the land. Nobody can watch it sink into that ocean. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"A stolen boat. Two people on the same beach. One alibi is impossible. Can you see why? #mystery #riddle #detective #spotthelie #brainteaser #ClueLab #puzzle",
+  "instagram":"An east-coast town, a stolen boat and three alibis. Mara, Gideon or Seth — who's lying? Comment before the reveal. #mystery #riddles #detective #spotthelie #brainteaser #ClueLab #puzzle #mindgames",
+  "yt_title":"Two alibis, one beach. Only one can be true. #shorts",
+  "yt_desc":"A stolen boat and an impossible view. Spot the lie before the countdown! #mystery #riddle #detective #brainteaser #shorts"}
+},
+{
+ "id":"CL-0011","title":"The Misspelled Threat","category":"Hidden clue",
+ "hook":"The threat was anonymous. The spelling wasn't.",
+ "setting":"Ashby Theatre. The lead actress receives a threatening letter.",
+ "props":["letter","pen","magnifier"],
+ "suspects":[
+  {"name":"VERA","role":"Understudy","line":"Gets the lead if the star quits. Writes with the same red ink as the letter."},
+  {"name":"NOEL","role":"Director","line":"Statement: \"I will definitely cooperate.\""},
+  {"name":"PIP","role":"Stagehand","line":"Statement: \"I definately saw nothing.\""}
+ ],
+ "clues":["The letter: \"You will DEFINATELY regret it\"","Red ink is sold at every shop in town","Each suspect wrote a short statement"],
+ "question":"WHO WROTE THE LETTER?",
+ "answer":"PIP",
+ "solution":"Pip. The letter misspells 'definitely' as 'definately', and Pip's statement makes exactly the same mistake. Red ink is common: Vera's pen proves nothing. Noel spells it correctly.",
+ "mechanism":"Matching handwriting-independent spelling error between anonymous note and statement.",
+ "narration":"The threat was anonymous. The spelling wasn't. The Ashby Theatre. The lead actress finds a letter in red ink: quit the show, or you will definately regret it. Definitely, spelled with an A. The detective asks three people to write a short statement. Vera, the understudy, who gets the lead role if the star quits, writes with the same red ink. But red pens are sold in every shop in town. Noel, the director, writes: I will definitely cooperate. Pip, the stagehand, writes: I definately saw nothing. Who wrote the letter? You have five seconds. ... It was Pip. The letter misspells definitely, with an A. Pip's statement makes the exact same mistake. Vera's red ink was a false lead. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"An anonymous threat. Three handwritten statements. The culprit signed it without knowing. See it? #mystery #riddle #detective #hiddenclue #brainteaser #ClueLab #puzzle",
+  "instagram":"A threat in red ink backstage. Vera, Noel or Pip — who wrote it? The clue is on the page. Comment before the reveal. #mystery #riddles #detective #brainteaser #ClueLab #puzzle #mindgames #theatre",
+  "yt_title":"The threat was anonymous. The spelling wasn't. #shorts",
+  "yt_desc":"A backstage threat and three statements. Find the hidden clue before the countdown! #mystery #riddle #detective #brainteaser #shorts"}
+},
+{
+ "id":"CL-0012","title":"Fire in the Locked Cabin","category":"Impossible crime",
+ "hook":"A fire started in a locked, empty cabin. Nobody was inside.",
+ "setting":"Lakeside cabin. Locked all day. Fire broke out at 2 PM on a bright, cloudless day. Heavily insured.",
+ "props":["carafe","sun","flame"],
+ "suspects":[
+  {"name":"OLIVER","role":"Owner","line":"In town at 2 PM, with witnesses. Moved his desk to the sunny window yesterday."},
+  {"name":"TESS","role":"Electrician","line":"Rewired the cabin that morning. Locked up at 11 AM."},
+  {"name":"HAL","role":"Neighbor","line":"Wanted to buy the land. Was fishing on the lake all day."}
+ ],
+ "clues":["The wiring was intact: not electrical","On the desk: a round glass water carafe in full sun","Scorch mark on the papers right behind the carafe"],
+ "question":"HOW DID THE FIRE START?",
+ "answer":"THE CARAFE",
+ "solution":"The carafe acted as a magnifying glass. Sunlight through the round, water-filled glass focused onto the papers and ignited them at 2 PM. Oliver set it up: he moved the desk into the sun the day before and gave himself a perfect alibi.",
+ "mechanism":"Water-filled glass carafe focusing sunlight as a lens (delayed ignition).",
+ "narration":"A fire started in a locked, empty cabin. Nobody was inside. A cabin by the lake, locked since eleven A.M. At two P.M., on a bright cloudless day, it catches fire. Tess, the electrician, rewired it that morning. But the wiring is intact. Hal, the neighbor, wanted to buy the land, but he was fishing on the lake all day. Oliver, the owner, was in town with witnesses. Yesterday, he moved his desk to the sunny window. On the desk sits a round glass carafe full of water, and right behind it, a scorch mark on a pile of papers. How did the fire start? You have five seconds. ... The carafe. A round glass full of water works like a magnifying glass. The afternoon sun focused through it onto the papers, until they burned. Oliver set the trap, and gave himself the perfect alibi. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"Locked cabin. Nobody inside. Wiring intact. And still it burned at 2 PM. How? #mystery #riddle #detective #impossiblecrime #brainteaser #ClueLab #puzzle",
+  "instagram":"An empty, locked cabin catches fire on a sunny afternoon. Oliver, Tess or Hal — and HOW? Comment before the reveal. #mystery #riddles #detective #impossiblecrime #ClueLab #puzzle #mindgames #brainteaser",
+  "yt_title":"A locked, empty cabin caught fire. How? #shorts",
+  "yt_desc":"An impossible fire and one object on the desk. Solve it before the countdown! #mystery #riddle #detective #impossiblecrime #shorts"}
+},
+{
+ "id":"CL-0013","title":"The Long Shadow","category":"Think like a detective",
+ "hook":"His alibi is a photo. The photo is the problem.",
+ "setting":"Midsummer. A jewelry store robbed at exactly 12:00 noon, across town from the Old Clock Tower.",
+ "props":["camera","tower","sun"],
+ "suspects":[
+  {"name":"RAFAEL","role":"Ex-employee","line":"Shows a photo by the clock tower stamped 12:00. In it, the shadows are longer than the people."},
+  {"name":"DORA","role":"Cleaner","line":"Has a key to the store. Was at the dentist from 11:30, confirmed."},
+  {"name":"KIT","role":"Courier","line":"Delivered to the store at 10 AM. Seen across town at noon on CCTV."}
+ ],
+ "clues":["Midsummer noon: the sun is almost straight overhead","Camera timestamps can be changed by hand","Rafael's photo shows very long shadows"],
+ "question":"WHY IS RAFAEL'S ALIBI FAKE?",
+ "answer":"THE SHADOWS",
+ "solution":"At noon in midsummer the sun is nearly overhead, so shadows are tiny. Long shadows mean the photo was taken early morning or late afternoon. Rafael changed the camera clock to 12:00: he was robbing the store at noon.",
+ "mechanism":"Shadow length contradicts photo timestamp (sun elevation).",
+ "narration":"His alibi is a photo. The photo is the problem. Midsummer. At exactly twelve noon, a jewelry store is robbed. Dora, the cleaner, has a key, but she was at the dentist, confirmed. Kit, the courier, delivered there that morning, but cameras caught him across town at noon. Rafael, a former employee, shows the police a photo of himself at the old clock tower, stamped twelve o'clock. In the photo, the shadows on the ground are longer than the people. Why is Rafael's alibi fake? You have five seconds. ... Look at the shadows. At noon in midsummer, the sun is almost straight overhead. Shadows are tiny. Long shadows mean early morning, or late afternoon. Rafael changed the camera's clock. At noon, he was in the store. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"A robbery at noon. A photo alibi stamped 12:00. Something in the picture says otherwise. What? #mystery #riddle #detective #thinklikeadetective #brainteaser #ClueLab #puzzle",
+  "instagram":"His alibi is a timestamped photo. Think like a detective: what's wrong with it? Comment before the reveal. #mystery #riddles #detective #brainteaser #ClueLab #puzzle #mindgames #crimepuzzle",
+  "yt_title":"His alibi is a photo. The photo is the problem. #shorts",
+  "yt_desc":"A noon robbery and a timestamped alibi. Find the flaw before the countdown! #mystery #riddle #detective #brainteaser #shorts"}
+},
+{
+ "id":"CL-0014","title":"The Wrong Time","category":"Psychological trap",
+ "hook":"The detective lied on purpose. And the thief corrected him.",
+ "setting":"Halden Museum. A gold medal stolen at night. The alarm log has never been made public.",
+ "props":["clock","alarm","medal"],
+ "suspects":[
+  {"name":"GRETA","role":"Night guard","line":"Nervous, sweating: \"I was on my rounds at 3.\""},
+  {"name":"SIMON","role":"Curator","line":"Calm: \"At 3? But it rang at 2:40, didn't it?\""},
+  {"name":"LOU","role":"Cleaner","line":"Has a museum key. \"I was home asleep.\""}
+ ],
+ "clues":["The real alarm time is secret: 2:40 AM","The detective deliberately says \"3:00\"","Only the person who was there knows the real time"],
+ "question":"WHO FELL INTO THE TRAP?",
+ "answer":"SIMON",
+ "solution":"Simon. The detective gave a false time, 3:00, on purpose. The real time, 2:40, was never made public. Simon corrected him: only someone who was there when the alarm went off could know. Greta's nerves were a false lead.",
+ "mechanism":"Detective plants a false detail; culprit reflexively corrects it with secret true detail.",
+ "narration":"The detective lied on purpose. And the thief corrected him. A gold medal is stolen from the Halden Museum. The alarm went off at two forty A.M. That time was never made public. The detective gathers three suspects and asks: where were you when the alarm rang at three o'clock? Greta, the night guard, sweating and nervous, says: on my rounds. Lou, the cleaner, who has a key, says: home, asleep. Simon, the calm curator, frowns: at three? But it rang at two forty, didn't it? Who fell into the trap? You have five seconds. ... It was Simon. The detective gave a false time on purpose. The real time was secret. Simon corrected it, because he was there when the alarm went off. Greta's nerves were just a false lead. Every detail matters. This is ClueLab.",
+ "captions":{
+  "tiktok":"The detective told a lie on purpose. One suspect couldn't resist correcting it. Who fell for it? #mystery #riddle #detective #psychology #brainteaser #ClueLab #mindgames",
+  "instagram":"A stolen medal, a secret alarm log and a detective's trap. Greta, Simon or Lou? Comment before the reveal. #mystery #riddles #detective #psychology #ClueLab #puzzle #mindgames #brainteaser",
+  "yt_title":"The detective lied on purpose. Who took the bait? #shorts",
+  "yt_desc":"A museum theft and a deliberate trap. Catch the thief before the countdown! #mystery #riddle #detective #psychology #shorts"}
+}
+]
