@@ -1,0 +1,372 @@
+[
+{
+ "id": "CL-0003", "title": "The Snow Clock", "category": "Who is the killer",
+ "question": "Who was in the lodge at eleven and lied about it?",
+ "answer": "Nico, the driver",
+ "explanation": "Snow fell 10 PM-2 AM. A car arriving at 2 AM would have a bare roof; Nico's was buried as deep as a car parked since 10 PM, so he was already there at 11 PM. Lena's dusting fits 1:30 AM. Tomas's argument is the false lead.",
+ "mechanism": "Snow depth on car roofs dates each arrival during a known snowfall window.",
+ "falseLead": "Tomas argued with the victim at dinner.",
+ "clues": ["Snow fell from 10 PM to 2 AM; murder at 11 PM", "Nico claims he arrived at 2 AM", "Nico's car under 10 cm of snow, same as Tomas's (parked all day); Lena's car (1:30 AM) only a dusting"],
+ "segments": [
+  {"text": "Three cars. One killer. And the snow remembers when each one arrived.", "scene": {"type": "hook", "title": "THREE CARS.\nONE KILLER.", "icons": ["car", "car", "car"]}},
+  {"text": "Snow fell on the Varga lodge from ten until two in the morning. At eleven, Mr. Varga was killed.", "scene": {"type": "info", "heading": "VARGA LODGE", "icons": ["house", "snow"], "lines": ["SNOW: 10 PM → 2 AM", "MURDER: 11 PM"]}},
+  {"text": "Tomas, his partner, argued with him at dinner, and never left the lodge.", "scene": {"type": "suspects", "heading": "THREE SUSPECTS", "items": [
+    {"name": "TOMAS", "role": "THE PARTNER", "note": "NEVER LEFT · ARGUED", "icon": "person"},
+    {"name": "LENA", "role": "THE NIECE", "note": "ARRIVED 1:30 AM", "icon": "person2"},
+    {"name": "NICO", "role": "THE DRIVER", "note": "ARRIVED 2:00 AM", "icon": "person3"}]}},
+  {"text": "Lena, his niece, says she arrived at one thirty, and found the body.", "step": true},
+  {"text": "Nico, the driver, swears he only drove up at two.", "step": true},
+  {"text": "Police check the cars. Tomas's: under ten centimetres of snow.", "scene": {"type": "evidence", "heading": "THE CARS AT 2:10 AM", "items": [
+    {"icon": "carsnow", "label": "TOMAS", "detail": "10 CM OF SNOW"},
+    {"icon": "car", "label": "LENA", "detail": "A LIGHT DUSTING"},
+    {"icon": "carsnow", "label": "NICO", "detail": "10 CM OF SNOW"}], "show": 1}},
+  {"text": "Lena's: barely a dusting.", "step": true},
+  {"text": "Nico's: buried just as deep.", "step": true},
+  {"text": "Who lied? You have five seconds.", "scene": {"type": "countdown", "question": "WHO LIED ABOUT\nARRIVING LATE?"}},
+  {"text": "It was Nico. The snow stopped at two. A car arriving at two would have a bare roof.", "scene": {"type": "reveal", "title": "IT WAS NICO", "icons": ["carsnow"], "lines": ["SNOW STOPPED AT 2 AM", "A 2 AM CAR = BARE ROOF"]}},
+  {"text": "Nico's car was buried as deep as one parked since ten. He was already there when Varga died. The argument was just noise.", "scene": {"type": "reveal", "title": "THE SNOW CLOCK", "icons": ["snow", "clock"], "lines": ["NICO'S CAR: PARKED SINCE ~10 PM", "TOMAS'S ARGUMENT = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "Three cars in the snow. One driver says he arrived after the murder… but the snow says otherwise. Who lied? Drop your answer before the reveal. #mystery #detective #whodunit #riddle #brainteaser #ClueLab #puzzle",
+  "instagram": "Snow from 10 PM to 2 AM. A murder at 11. Three cars in the driveway — and one alibi that melts under pressure. Tomas, Lena or Nico? Comment before the reveal. #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "The snow remembers when each car arrived — who lied? #shorts",
+  "youtubeDesc": "A snowstorm, three cars and one impossible alibi. Can you solve it before the countdown? Comment your answer! #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0004", "title": "The Dry Coat", "category": "Spot the lie",
+ "question": "Who is lying?",
+ "answer": "Rita, the cousin",
+ "explanation": "Rain fell 8:00-9:30. A 20-minute walk without an umbrella during it would soak her; her dry coat and hair mean she was already inside before 8, when the jewellery box was emptied (8:15). Paul's mud is from walking his dog in the rain (false lead); Owen came by taxi after the rain.",
+ "mechanism": "A person claiming to have walked through a timed downpour is completely dry.",
+ "falseLead": "Paul is soaked and muddy.",
+ "clues": ["Heavy rain from 8:00 to 9:30; theft at 8:15", "Rita says she walked 20 minutes from the bus without an umbrella, arriving at 9", "Rita's coat and hair are bone dry"],
+ "segments": [
+  {"text": "It poured for ninety minutes. One of these three says she walked through it, and stayed perfectly dry.", "scene": {"type": "hook", "title": "IT POURED\nFOR 90 MINUTES", "icons": ["rain"]}},
+  {"text": "Heavy rain fell from eight until half past nine. At eight fifteen, someone emptied Mrs. Hart's jewellery box upstairs.", "scene": {"type": "info", "heading": "THE HART HOUSE", "icons": ["rain", "gem"], "lines": ["RAIN: 8:00 → 9:30 PM", "THEFT: 8:15 PM"]}},
+  {"text": "Paul, the neighbour, arrived at nine with his dog. Both are soaked and muddy.", "scene": {"type": "suspects", "heading": "THREE VISITORS", "items": [
+    {"name": "PAUL", "role": "THE NEIGHBOUR", "note": "SOAKED · MUDDY", "icon": "person"},
+    {"name": "RITA", "role": "THE COUSIN", "note": "WALKED 20 MIN · BONE DRY", "icon": "person2"},
+    {"name": "OWEN", "role": "THE NEPHEW", "note": "TAXI AT 10 PM · DRY", "icon": "person3"}]}},
+  {"text": "Rita, the cousin, says she walked twenty minutes from the bus, no umbrella, arriving at nine. Her coat and hair: bone dry.", "step": true},
+  {"text": "Owen, the nephew, came by taxi at ten, after the rain. Dry too.", "step": true},
+  {"text": "Who is lying? You have five seconds.", "scene": {"type": "countdown", "question": "WHO IS LYING?"}},
+  {"text": "Rita. Twenty minutes in that storm, without an umbrella, would have soaked her to the bone.", "scene": {"type": "reveal", "title": "IT WAS RITA", "icons": ["umbrellax", "rain"], "lines": ["20 MIN IN THE RAIN", "NO UMBRELLA = SOAKED"]}},
+  {"text": "Her coat is dry because she was already inside before eight, upstairs, at the jewellery box. The muddy neighbour? He just walked his dog.", "scene": {"type": "reveal", "title": "SHE NEVER WALKED", "icons": ["house", "gem"], "lines": ["INSIDE BEFORE 8 PM", "PAUL'S MUD = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "Ninety minutes of rain. Three visitors. One of them should be soaked… Who's lying? Comment before the reveal. #mystery #spotthelie #detective #riddle #brainteaser #ClueLab #puzzle",
+  "instagram": "Rain from 8 to 9:30. A jewellery box emptied at 8:15. Paul, Rita or Owen — one story doesn't hold water. Your answer below 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "One of them walked through the storm… and stayed dry? #shorts",
+  "youtubeDesc": "Three visitors, a downpour and one story that doesn't hold water. Can you spot the lie before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0005", "title": "The London Watch", "category": "Hidden clue",
+ "question": "Who killed Hugo?",
+ "answer": "Carmen, the ex-wife",
+ "explanation": "Hugo had just landed from London and never reset his watch. London is one hour behind Madrid, so 9:15 on the broken watch was 10:15 in Madrid, inside Carmen's unaccounted hour (10:00-10:30). Felipe's 9:00-9:30 gap is the false lead.",
+ "mechanism": "Broken watch still set to another time zone shifts the true time of death.",
+ "falseLead": "Felipe has no alibi from 9:00 to 9:30.",
+ "clues": ["Broken watch frozen at 9:15", "Boarding pass London→Madrid, landed that evening", "Alibi gaps: Felipe 9:00-9:30, Carmen 10:00-10:30"],
+ "segments": [
+  {"text": "The broken watch says nine fifteen. The police believed it. That was their mistake.", "scene": {"type": "hook", "title": "THE WATCH SAYS\n9:15", "icons": ["watch"]}},
+  {"text": "Art dealer Hugo Lane is found dead in his Madrid flat. His wristwatch was smashed in the struggle, frozen at nine fifteen.", "scene": {"type": "info", "heading": "MADRID · HUGO'S FLAT", "icons": ["watch"], "lines": ["WATCH SMASHED", "FROZEN AT 9:15"]}},
+  {"text": "On the table, his boarding pass. London to Madrid. Landed that same evening.", "scene": {"type": "info", "heading": "ON THE TABLE", "icons": ["plane", "ticket"], "lines": ["BOARDING PASS", "LONDON → MADRID · TODAY"]}},
+  {"text": "Felipe, his assistant, has no alibi from nine to half past.", "scene": {"type": "suspects", "heading": "THREE SUSPECTS", "items": [
+    {"name": "FELIPE", "role": "THE ASSISTANT", "note": "NO ALIBI 9:00-9:30", "icon": "person"},
+    {"name": "CARMEN", "role": "THE EX-WIFE", "note": "NO ALIBI 10:00-10:30", "icon": "person2"},
+    {"name": "IVÁN", "role": "THE BROTHER", "note": "DINNER ALL NIGHT · 20 WITNESSES", "icon": "person3"}]}},
+  {"text": "Carmen, his ex-wife, has no alibi from ten to half past ten.", "step": true},
+  {"text": "Iván, his brother, was at a dinner all night, with twenty witnesses.", "step": true},
+  {"text": "Who killed Hugo? You have five seconds.", "scene": {"type": "countdown", "question": "WHO KILLED HUGO?"}},
+  {"text": "Carmen. Hugo had just flown in from London, and never changed his watch.", "scene": {"type": "reveal", "title": "IT WAS CARMEN", "icons": ["plane", "watch"], "lines": ["WATCH STILL ON LONDON TIME"]}},
+  {"text": "London is one hour behind Madrid. Nine fifteen on his watch meant ten fifteen in Madrid, right inside Carmen's missing half hour. Felipe's gap was a decoy.", "scene": {"type": "reveal", "title": "9:15 LONDON = 10:15 MADRID", "icons": ["clock"], "lines": ["LONDON = MADRID − 1 HOUR", "CARMEN: NO ALIBI 10:00-10:30", "FELIPE'S GAP = DECOY"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "The smashed watch says 9:15. The police trusted it. Should they have? Who killed Hugo? Comment before the reveal. #mystery #detective #whodunit #riddle #brainteaser #ClueLab #hiddenclue",
+  "instagram": "A smashed watch. A boarding pass. Three alibi gaps — and one hidden clue that changes everything. Felipe, Carmen or Iván? 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "The broken watch says 9:15… but is that the real time? #shorts",
+  "youtubeDesc": "A smashed watch, a boarding pass and three suspects. Can you find the hidden clue before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0006", "title": "The Bolted Study", "category": "Impossible crime",
+ "question": "How did the attacker escape a room bolted from the inside?",
+ "answer": "The attacker was never inside: the professor was stabbed in the hallway and bolted the door herself.",
+ "explanation": "Blood drop outside in the hallway, the professor's own bloody prints on the inner bolt and a trail from door to desk show she was attacked in the hallway, locked herself in to keep the attacker out and collapsed. The missing spare key is a false lead: a bolt cannot be worked with a key.",
+ "mechanism": "Locked-room inversion: the victim locked the room herself after being attacked outside.",
+ "falseLead": "A spare key is missing from the porter's desk.",
+ "clues": ["Blood drop in the hallway, outside the door", "Professor's own bloody fingerprints on the inside bolt", "Blood trail from the door to her desk"],
+ "segments": [
+  {"text": "The door was bolted from the inside. The window was painted shut. So how did the attacker get out?", "scene": {"type": "hook", "title": "BOLTED FROM\nTHE INSIDE", "icons": ["door"]}},
+  {"text": "Professor Ada Quinn is found stabbed in her study. Door bolted from inside. Window painted shut for years.", "scene": {"type": "info", "heading": "THE STUDY", "icons": ["door", "window"], "lines": ["DOOR: BOLTED INSIDE", "WINDOW: PAINTED SHUT"]}},
+  {"text": "A spare key is missing from the porter's desk.", "scene": {"type": "info", "heading": "PORTER'S DESK", "icons": ["key"], "lines": ["SPARE KEY MISSING"]}},
+  {"text": "But detectives notice three things. A drop of blood in the hallway, outside the door.", "scene": {"type": "evidence", "heading": "THREE DETAILS", "items": [
+    {"icon": "drop", "label": "HALLWAY", "detail": "BLOOD OUTSIDE THE DOOR"},
+    {"icon": "hand", "label": "THE BOLT", "detail": "HER OWN BLOODY PRINTS"},
+    {"icon": "trail", "label": "THE FLOOR", "detail": "TRAIL: DOOR → DESK"}], "show": 1}},
+  {"text": "Bloody fingerprints on the inside bolt. The professor's own.", "step": true},
+  {"text": "And a trail of drops from the door to her desk.", "step": true},
+  {"text": "How did the killer escape a locked room? You have five seconds.", "scene": {"type": "countdown", "question": "HOW DID THE KILLER\nESCAPE?"}},
+  {"text": "The killer never was inside. Quinn was attacked in the hallway.", "scene": {"type": "reveal", "title": "NEVER INSIDE", "icons": ["drop", "door"], "lines": ["ATTACKED IN THE HALLWAY"]}},
+  {"text": "She stumbled into her study, bolted the door herself to keep her attacker out, and collapsed at her desk. And the missing key? A bolt doesn't need one.", "scene": {"type": "reveal", "title": "SHE LOCKED IT", "icons": ["hand", "trail"], "lines": ["HER PRINTS ON THE BOLT", "TRAIL: DOOR → DESK", "MISSING KEY = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "Bolted from the inside. Window painted shut. So how did the attacker vanish? Think before the countdown. #mystery #lockedroom #detective #riddle #brainteaser #ClueLab #impossiblecrime",
+  "instagram": "A room bolted from the inside. A window painted shut for years. A missing spare key. How did the attacker escape? Your theory below 👇 #mystery #riddles #detective #lockedroom #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "A room bolted from the inside — how did the attacker escape? #shorts",
+  "youtubeDesc": "An impossible locked-room case with three tiny details. Can you crack it before the countdown? #mystery #riddle #detective #lockedroom #shorts"
+ }
+},
+{
+ "id": "CL-0007", "title": "The Melted Ice", "category": "Think like a detective",
+ "question": "Is Daniel telling the truth about when he arrived?",
+ "answer": "No — Daniel had been in the lounge long before 11:30; he switched the files.",
+ "explanation": "Ice that was poured two minutes earlier cannot be completely melted, with a warm glass and no condensation, while the ice bucket next to it is still full of solid cubes. The drink had been sitting for a long time, so Daniel was in the lounge at 11:30. The waitress's prints are from polishing the safe at 10 (false lead).",
+ "mechanism": "Fully melted ice in a 'fresh' drink, compared to solid ice in the bucket, dates a person's presence.",
+ "falseLead": "The waitress's fingerprints are on the safe door.",
+ "clues": ["Files switched at 11:30; Daniel claims he walked in at 11:53 and poured a whisky with ice", "His glass: ice completely melted, glass room temperature, no condensation", "The ice bucket beside it is still full of solid cubes"],
+ "segments": [
+  {"text": "He said he'd just walked in. His drink said otherwise.", "scene": {"type": "hook", "title": "\"I JUST\nWALKED IN.\"", "icons": ["glass"]}},
+  {"text": "Private lounge, Crane Hotel. At eleven thirty, someone switched the contracts in Mr. Crane's safe.", "scene": {"type": "info", "heading": "CRANE HOTEL · PRIVATE LOUNGE", "icons": ["safe"], "lines": ["11:30 PM", "CONTRACTS SWITCHED"]}},
+  {"text": "At eleven fifty five, the guard finds Daniel there. He says he walked in two minutes ago, and poured a whisky on the rocks.", "scene": {"type": "quote", "who": "DANIEL · 11:55 PM", "text": "I walked in two minutes ago and poured myself a whisky on the rocks.", "icon": "person"}},
+  {"text": "His glass: the ice completely melted, the glass room temperature, not a drop of condensation.", "scene": {"type": "evidence", "heading": "ON THE TABLE", "items": [
+    {"icon": "glass", "label": "HIS GLASS", "detail": "ICE FULLY MELTED · NO CONDENSATION"},
+    {"icon": "bucket", "label": "ICE BUCKET", "detail": "FULL OF SOLID CUBES"},
+    {"icon": "hand", "label": "THE SAFE", "detail": "WAITRESS'S PRINTS (POLISHED IT AT 10)"}], "show": 1}},
+  {"text": "Beside it, the ice bucket, still full of solid cubes.", "step": true},
+  {"text": "And on the safe, the waitress's fingerprints. She polished it at ten.", "step": true},
+  {"text": "Is Daniel telling the truth? You have five seconds.", "scene": {"type": "countdown", "question": "IS DANIEL\nTELLING THE TRUTH?"}},
+  {"text": "No. Ice poured two minutes ago can't vanish, not when the cubes in the bucket are still solid.", "scene": {"type": "reveal", "title": "DANIEL LIED", "icons": ["glass", "bucket"], "lines": ["MELTED GLASS VS SOLID BUCKET", "THAT DRINK SAT FOR A LONG TIME"]}},
+  {"text": "That drink had sat there for a long time. Daniel was in the lounge at eleven thirty. The waitress just did her job.", "scene": {"type": "reveal", "title": "HE WAS THERE AT 11:30", "icons": ["clock", "safe"], "lines": ["DANIEL SWITCHED THE CONTRACTS", "WAITRESS'S PRINTS = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "\"I just walked in.\" But his drink tells another story. Think like a detective — is Daniel telling the truth? #mystery #detective #riddle #brainteaser #ClueLab #thinklikeadetective #puzzle",
+  "instagram": "A switched contract. A guest who 'just walked in'. And a glass of whisky that tells the real story. Truth or lie? 👇 #mystery #riddles #detective #brainteaser #ClueLab #puzzle #mindgames #whodunit",
+  "youtubeTitle": "He said he just walked in… his drink disagrees #shorts",
+  "youtubeDesc": "One glass, one ice bucket and one suspicious guest. Think like a detective before the countdown! #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0008", "title": "The Word Nobody Said", "category": "Psychological trap",
+ "question": "Who gave themselves away?",
+ "answer": "The secretary",
+ "explanation": "The inspector only said 'Lord Ashby is dead' — no cause, no place. The secretary mentioned the stairs and a push, details only the killer could know. The gardener's scratches come from pruning roses (false lead); the cook's questions are what an innocent person asks.",
+ "mechanism": "Guilty knowledge: a suspect reveals an unreleased detail (cause and place of death).",
+ "falseLead": "The gardener's scratched hands.",
+ "clues": ["Inspector said only 'Lord Ashby is dead' — no cause, no place", "Gardener's scratched hands (pruning roses)", "Secretary: 'Who would push him down those stairs?'"],
+ "segments": [
+  {"text": "The inspector said only four words. The killer answered a question nobody asked.", "scene": {"type": "hook", "title": "ONLY\nFOUR WORDS", "icons": ["magnifier"]}},
+  {"text": "Morning at Blackwood Manor. Inspector Hale gathers the staff and says just this: Lord Ashby is dead. Nothing about how. Nothing about where.", "scene": {"type": "quote", "who": "INSPECTOR HALE", "text": "Lord Ashby is dead.", "icon": "person", "sub": "NOTHING ABOUT HOW · NOTHING ABOUT WHERE"}},
+  {"text": "The gardener, his hands covered in fresh scratches, goes pale and says nothing.", "scene": {"type": "suspects", "heading": "THE STAFF REACTS", "items": [
+    {"name": "THE GARDENER", "role": "HANDS SCRATCHED", "note": "PALE · SILENT", "icon": "person"},
+    {"name": "THE COOK", "role": "\"DEAD? WHEN?\"", "note": "SERVED DINNER AT 8", "icon": "person2"},
+    {"name": "THE SECRETARY", "role": "\"WHO WOULD PUSH HIM", "note": "DOWN THOSE STAIRS?\"", "icon": "person3"}]}},
+  {"text": "The cook gasps: Dead? When? I served him dinner at eight.", "step": true},
+  {"text": "The secretary sighs: Poor man. Who would push him down those stairs?", "step": true},
+  {"text": "Who gave themselves away? You have five seconds.", "scene": {"type": "countdown", "question": "WHO GAVE\nTHEMSELVES AWAY?"}},
+  {"text": "The secretary. Nobody had said how Ashby died, or where.", "scene": {"type": "reveal", "title": "THE SECRETARY", "icons": ["stairs"], "lines": ["NOBODY MENTIONED STAIRS", "NOBODY MENTIONED A PUSH"]}},
+  {"text": "She knew about the stairs and the push, because she was there. The gardener's scratches? He'd been pruning roses. Only the killer knows what the police haven't said.", "scene": {"type": "reveal", "title": "GUILTY KNOWLEDGE", "icons": ["rose", "magnifier"], "lines": ["SCRATCHES = ROSES (FALSE LEAD)", "ONLY THE KILLER KNEW"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "The inspector said only four words. Three reactions. One of them knew too much. Who slipped? #mystery #detective #psychology #riddle #brainteaser #ClueLab #whodunit",
+  "instagram": "\"Lord Ashby is dead.\" That's all the inspector said. The gardener, the cook or the secretary — whose reaction gave them away? 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #psychology #mindgames",
+  "youtubeTitle": "The inspector said 4 words — the killer said too much #shorts",
+  "youtubeDesc": "A psychological trap in three reactions. Can you catch the slip before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0009", "title": "The Pond Weed", "category": "Who is the killer",
+ "question": "Who drowned Leo?",
+ "answer": "Ben, the brother",
+ "explanation": "Pond weed in Leo's lungs means he drowned in the pond, not the chlorinated pool, so the body was moved. Ben claims he never left the library, yet his boots are drying by the fire on a night it never rained — the only way to get them wet was the pond. Ray is wet from diving into the pool (false lead).",
+ "mechanism": "Freshwater weed in the lungs proves a drowned body was moved from a pond to a chlorinated pool; wet boots on a dry night expose the mover.",
+ "falseLead": "Ray, the pool cleaner, is soaking wet.",
+ "clues": ["Pond weed in Leo's lungs and hair; nothing grows in a chlorinated pool", "It hasn't rained in weeks", "Ben's boots are drying in front of the library fire though he 'never left'"],
+ "segments": [
+  {"text": "He was found beside the pool. But the water in his lungs tells a different story.", "scene": {"type": "hook", "title": "FOUND BESIDE\nTHE POOL", "icons": ["pool"]}},
+  {"text": "Banker Leo Marsh is found drowned next to his chlorinated pool. Behind the house, a muddy pond. It hasn't rained in weeks.", "scene": {"type": "info", "heading": "MARSH COUNTRY HOUSE", "icons": ["pool", "weed"], "lines": ["CHLORINATED POOL · MUDDY POND", "NO RAIN IN WEEKS"]}},
+  {"text": "The coroner finds pond weed in his lungs. Nothing grows in a chlorinated pool.", "scene": {"type": "evidence", "heading": "CORONER'S REPORT", "items": [
+    {"icon": "weed", "label": "LUNGS & HAIR", "detail": "GREEN POND WEED"},
+    {"icon": "pool", "label": "THE POOL", "detail": "CHLORINE · NOTHING GROWS"}], "show": 2}},
+  {"text": "Ray, the pool cleaner, is soaking wet. He says he dove in to pull Leo out.", "scene": {"type": "suspects", "heading": "THREE SUSPECTS", "items": [
+    {"name": "RAY", "role": "POOL CLEANER", "note": "SOAKED · DOVE IN", "icon": "person"},
+    {"name": "KATE", "role": "THE WIFE", "note": "ASLEEP · DRY SLIPPERS", "icon": "person2"},
+    {"name": "BEN", "role": "THE BROTHER", "note": "BOOTS DRYING BY THE FIRE", "icon": "person3"}]}},
+  {"text": "Kate, his wife, was asleep upstairs. Her slippers are dry.", "step": true},
+  {"text": "Ben, his brother, swears he never left the library. Odd, then, that his boots are drying in front of the fire.", "step": true},
+  {"text": "Who drowned Leo? You have five seconds.", "scene": {"type": "countdown", "question": "WHO DROWNED LEO?"}},
+  {"text": "Ben. The weed means Leo drowned in the pond, and was moved to the pool.", "scene": {"type": "reveal", "title": "IT WAS BEN", "icons": ["weed", "pool"], "lines": ["DROWNED IN THE POND", "BODY MOVED TO THE POOL"]}},
+  {"text": "With no rain for weeks, only the pond could soak those boots. Ray is wet from the pool, trying to save him.", "scene": {"type": "reveal", "title": "THE WET BOOTS", "icons": ["boot", "fire"], "lines": ["NO RAIN = ONLY THE POND", "RAY'S WET CLOTHES = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "Found drowned beside the pool… but the coroner found something that doesn't belong. Who did it? Comment before the reveal. #mystery #detective #whodunit #riddle #brainteaser #ClueLab #puzzle",
+  "instagram": "A body by the pool. A pond behind the house. Weeks without rain. Ray, Kate or Ben — who drowned Leo? 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "Found by the pool — but he didn't drown there. Who did it? #shorts",
+  "youtubeDesc": "A drowning, a pond and a pair of boots. Can you name the killer before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0010", "title": "The Wrong Sunset", "category": "Spot the lie",
+ "question": "Who is lying?",
+ "answer": "Julia, room 31",
+ "explanation": "Julia's room is in the east wing, facing the mountains. The sun sets in the west, over the sea, so she could not have watched it sink from her balcony. She invented the view to cover being at the safe at 7:40. Ana's absence is a camera-verified break (false lead).",
+ "mechanism": "Alibi describes a sunset from a balcony that faces east.",
+ "falseLead": "Ana, the receptionist, left her desk at 7:30.",
+ "clues": ["Necklace stolen 7:40 PM; sunset 7:42 PM", "Hotel map: west wing faces the sea (sunset), east wing faces the mountains", "Julia (room 31, east wing) says she watched the sun sink from her balcony"],
+ "segments": [
+  {"text": "She described a beautiful sunset. That was her mistake.", "scene": {"type": "hook", "title": "A BEAUTIFUL\nSUNSET", "icons": ["sun"]}},
+  {"text": "Hotel Mirador, on the coast. At seven forty, a necklace vanishes from the lobby safe. Sunset that evening: seven forty two.", "scene": {"type": "info", "heading": "HOTEL MIRADOR", "icons": ["gem", "sun"], "lines": ["THEFT: 7:40 PM", "SUNSET: 7:42 PM"]}},
+  {"text": "The hotel map. The west wing faces the sea. The east wing faces the mountains.", "scene": {"type": "map"}},
+  {"text": "Marco, room twelve, west wing, says he was asleep.", "scene": {"type": "suspects", "heading": "THREE STATEMENTS", "items": [
+    {"name": "MARCO", "role": "ROOM 12 · WEST WING", "note": "\"I WAS ASLEEP.\"", "icon": "person"},
+    {"name": "JULIA", "role": "ROOM 31 · EAST WING", "note": "\"WATCHING THE SUN SINK.\"", "icon": "person2"},
+    {"name": "ANA", "role": "RECEPTIONIST", "note": "BREAK AT 7:30 · ON CAMERA", "icon": "person3"}]}},
+  {"text": "Julia, room thirty one, east wing: I was on my balcony, watching the sun sink below the horizon.", "step": true},
+  {"text": "Ana, the receptionist, left her desk at seven thirty, on camera, for her break.", "step": true},
+  {"text": "Who is lying? You have five seconds.", "scene": {"type": "countdown", "question": "WHO IS LYING?"}},
+  {"text": "Julia. Her balcony faces east, toward the mountains. The sun sets in the west.", "scene": {"type": "reveal", "title": "IT WAS JULIA", "icons": ["compass", "sun"], "lines": ["ROOM 31 FACES EAST", "THE SUN SETS IN THE WEST"]}},
+  {"text": "From her room, she couldn't watch it sink. She invented the view to hide where she really was: at the safe.", "scene": {"type": "reveal", "title": "AN IMPOSSIBLE VIEW", "icons": ["safe", "gem"], "lines": ["SHE WAS AT THE SAFE", "ANA'S BREAK = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "A stolen necklace, a hotel map and one beautiful sunset that should never have been seen. Who's lying? #mystery #spotthelie #detective #riddle #brainteaser #ClueLab #puzzle",
+  "instagram": "Theft at 7:40. Sunset at 7:42. Three guests, three statements — one is impossible. Marco, Julia or Ana? 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "She described the perfect sunset… that was her mistake #shorts",
+  "youtubeDesc": "A hotel theft, a map and three statements. Can you spot the lie before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0011", "title": "The Untorn Ticket", "category": "Hidden clue",
+ "question": "Who stole the coins?",
+ "answer": "Victor, the cousin",
+ "explanation": "At the Rex cinema the usher tears every ticket at the door. Victor's ticket is whole, so it never passed the usher: he bought it as an alibi and never went in. Martin has no alibi but tells no lie (false lead); Sofia's taxi receipt is genuine.",
+ "mechanism": "An intact (unchecked) cinema ticket proves the holder never entered the screening.",
+ "falseLead": "Martin has no alibi.",
+ "clues": ["Theft at 9:15 PM", "The Rex cinema usher tears every ticket at the door", "Victor's 9:00 PM ticket is perfectly whole"],
+ "segments": [
+  {"text": "His alibi fit in his pocket. It was also what gave him away.", "scene": {"type": "hook", "title": "AN ALIBI\nIN HIS POCKET", "icons": ["ticket"]}},
+  {"text": "At nine fifteen, collector Elias Rook's rare coins are stolen from his home. Three relatives are questioned.", "scene": {"type": "info", "heading": "THE ROOK HOUSE", "icons": ["coin", "clock"], "lines": ["RARE COINS STOLEN", "9:15 PM"]}},
+  {"text": "Sofia shows a taxi receipt: nine oh five, across the city.", "scene": {"type": "suspects", "heading": "THREE RELATIVES", "items": [
+    {"name": "SOFIA", "role": "THE NIECE", "note": "TAXI RECEIPT 9:05", "icon": "person"},
+    {"name": "MARTIN", "role": "THE SON", "note": "HOME ALONE · NO ALIBI", "icon": "person2"},
+    {"name": "VICTOR", "role": "THE COUSIN", "note": "CINEMA TICKET · 9:00 SHOW", "icon": "person3"}]}},
+  {"text": "Martin has no alibi. He says he was home alone.", "step": true},
+  {"text": "Victor shows a ticket for the nine o'clock film at the Rex, and says he watched the whole thing.", "step": true},
+  {"text": "At the Rex, the usher tears every ticket in half at the door. Victor's ticket is crisp, and perfectly whole.", "scene": {"type": "evidence", "heading": "THE REX CINEMA", "items": [
+    {"icon": "tickettorn", "label": "HOUSE RULE", "detail": "USHER TEARS EVERY TICKET"},
+    {"icon": "ticket", "label": "VICTOR'S TICKET", "detail": "PERFECTLY WHOLE"}], "show": 1}},
+  {"text": "Who stole the coins? You have five seconds.", "scene": {"type": "countdown", "question": "WHO STOLE\nTHE COINS?"}},
+  {"text": "Victor. His ticket was never torn, so it never passed the usher.", "scene": {"type": "reveal", "title": "IT WAS VICTOR", "icons": ["ticket"], "lines": ["NOT TORN = NEVER CHECKED", "HE NEVER WENT IN"]}},
+  {"text": "He bought it as an alibi, and walked straight to Elias's house. Martin had no alibi, but he told no lie.", "scene": {"type": "reveal", "title": "A BOUGHT ALIBI", "icons": ["coin", "house"], "lines": ["VICTOR TOOK THE COINS", "MARTIN = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "A taxi receipt, a cinema ticket and no alibi at all. One piece of paper is lying. Who stole the coins? #mystery #detective #hiddenclue #riddle #brainteaser #ClueLab #whodunit",
+  "instagram": "Rare coins gone at 9:15. Sofia, Martin or Victor — one alibi hides a detail you can hold in your hand. 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "His alibi fit in his pocket — and gave him away #shorts",
+  "youtubeDesc": "Three relatives, three alibis, one hidden clue. Can you find it before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0012", "title": "The Sealed Reply", "category": "Impossible crime",
+ "question": "Who poisoned Simon, and how, if nobody entered the room?",
+ "answer": "Clara, the agent — poison on the envelope glue of the gifted stationery.",
+ "explanation": "Nobody entered and the tea was clean, so the poison had to be on something Simon used alone: the brand-new stationery. He sealed his reply by licking the envelope flap (still damp). The gift came from Clara. Owen's argument and the cook's tea are false leads.",
+ "mechanism": "Poison applied to envelope gum, delivered via gifted stationery into a guarded room.",
+ "falseLead": "Nephew Owen argued with Simon; the cook made his tea.",
+ "clues": ["Guard: nobody entered; tea tested clean", "Brand-new stationery box was a gift from Clara", "A freshly sealed reply envelope, flap still damp"],
+ "segments": [
+  {"text": "Locked in alone. Nobody went in. His tea was clean. And yet, he was poisoned.", "scene": {"type": "hook", "title": "ALONE.\nAND POISONED.", "icons": ["door"]}},
+  {"text": "At eight, author Simon Grey shuts himself in his study to answer letters. The guard swears nobody entered. At ten, he's found dead.", "scene": {"type": "info", "heading": "THE STUDY · 8 PM → 10 PM", "icons": ["door", "person"], "lines": ["GUARD: NOBODY ENTERED", "10 PM: FOUND DEAD · POISON"]}},
+  {"text": "His tea is tested. It's clean.", "scene": {"type": "evidence", "heading": "ON THE DESK", "items": [
+    {"icon": "cup", "label": "THE TEA", "detail": "TESTED CLEAN"},
+    {"icon": "gift", "label": "NEW STATIONERY", "detail": "A GIFT · FROM CLARA"},
+    {"icon": "envelope", "label": "HIS REPLY", "detail": "JUST SEALED · FLAP STILL DAMP"}], "show": 1}},
+  {"text": "On the desk, a brand new box of stationery. The gift tag reads: from Clara.", "step": true},
+  {"text": "And his reply, in a freshly sealed envelope. The flap is still damp.", "step": true},
+  {"text": "Owen, his nephew, argued with him that morning. Mrs. Bell, the cook, made his tea. Clara, his agent, sent the gift.", "scene": {"type": "suspects", "heading": "THREE SUSPECTS", "items": [
+    {"name": "OWEN", "role": "THE NEPHEW", "note": "ARGUED THAT MORNING", "icon": "person"},
+    {"name": "MRS. BELL", "role": "THE COOK", "note": "MADE THE TEA", "icon": "person2"},
+    {"name": "CLARA", "role": "THE AGENT", "note": "SENT THE STATIONERY", "icon": "person3"}], "show": 3}},
+  {"text": "Who killed Simon, and how? You have five seconds.", "scene": {"type": "countdown", "question": "WHO KILLED SIMON,\nAND HOW?"}},
+  {"text": "Clara. Nobody needed to enter the room. The poison was on the envelope glue.", "scene": {"type": "reveal", "title": "IT WAS CLARA", "icons": ["envelope"], "lines": ["POISON ON THE ENVELOPE GLUE"]}},
+  {"text": "Simon sealed his reply by licking the flap. The tea was clean, so the cook is cleared. Owen's argument was a distraction.", "scene": {"type": "reveal", "title": "THE SEALED REPLY", "icons": ["gift", "envelope"], "lines": ["HE LICKED THE FLAP", "OWEN & THE TEA = FALSE LEADS"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "Alone in a guarded room. The tea was clean. Nobody went in. So how was he poisoned — and by whom? #mystery #impossiblecrime #detective #riddle #brainteaser #ClueLab #whodunit",
+  "instagram": "A guarded study. A clean cup of tea. A writer poisoned anyway. Owen, Mrs. Bell or Clara — and how? 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "Nobody entered. The tea was clean. So how was he poisoned? #shorts",
+  "youtubeDesc": "An impossible poisoning in a guarded room. Can you solve it before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0013", "title": "The Candle Clock", "category": "Think like a detective",
+ "question": "Who took the brooch?",
+ "answer": "Henri, the butler",
+ "explanation": "Candles 20 cm tall, lit at 8, burn 2 cm per hour. The blown-out candle measures 14 cm: it lost 6 cm, so it burned 3 hours and was put out at 11 PM, not at 9:30 as Henri claims (it would measure 17 cm). Henri was in the room at 11, alone with the brooch. Gaspard admiring the brooch is the false lead.",
+ "mechanism": "Candle burn rate used as a clock to time when it was extinguished.",
+ "falseLead": "Gaspard admired the brooch all evening.",
+ "clues": ["Two 20 cm candles lit at 8 PM, burning 2 cm per hour", "Henri says he blew one out at 9:30 and left", "The blown-out candle measures 14 cm"],
+ "segments": [
+  {"text": "Two candles, lit at the same moment. One of them is a clock.", "scene": {"type": "hook", "title": "ONE CANDLE\nIS A CLOCK", "icons": ["candle", "candle"]}},
+  {"text": "Moreau villa. At eight, two new candles are lit: twenty centimetres tall, burning two centimetres per hour.", "scene": {"type": "info", "heading": "MOREAU VILLA · 8 PM", "icons": ["candle", "candle"], "lines": ["2 CANDLES · 20 CM TALL", "BURN: 2 CM PER HOUR"]}},
+  {"text": "At ten, everyone leaves the dining room. At midnight, Madame's diamond brooch is gone, and one candle has been blown out.", "scene": {"type": "info", "heading": "MIDNIGHT", "icons": ["gem", "candleout"], "lines": ["10 PM: ROOM EMPTIED", "BROOCH GONE · 1 CANDLE OUT"]}},
+  {"text": "Gaspard, the guest, admired the brooch all evening.", "scene": {"type": "suspects", "heading": "TWO STORIES", "items": [
+    {"name": "GASPARD", "role": "THE GUEST", "note": "ADMIRED THE BROOCH", "icon": "person"},
+    {"name": "HENRI", "role": "THE BUTLER", "note": "\"BLEW IT OUT AT 9:30\"", "icon": "person3"}]}},
+  {"text": "Henri, the butler, says he blew it out at half past nine, then left.", "step": true},
+  {"text": "The blown out candle now measures fourteen centimetres.", "scene": {"type": "evidence", "heading": "THE MEASUREMENT", "items": [
+    {"icon": "candleout", "label": "BLOWN-OUT CANDLE", "detail": "14 CM"}], "show": 1}},
+  {"text": "Who took the brooch? You have five seconds.", "scene": {"type": "countdown", "question": "WHO TOOK\nTHE BROOCH?"}},
+  {"text": "Henri. Two centimetres per hour. The candle lost six, so it burned for three hours, from eight to eleven.", "scene": {"type": "reveal", "title": "IT WAS HENRI", "icons": ["candleout", "clock"], "lines": ["20 − 14 = 6 CM", "6 CM ÷ 2 = 3 HOURS → 11 PM"]}},
+  {"text": "Blown out at half past nine, it would measure seventeen. Henri was in that room at eleven, alone with the brooch. Gaspard only admired it.", "scene": {"type": "reveal", "title": "THE CANDLE CLOCK", "icons": ["gem"], "lines": ["9:30 WOULD LEAVE 17 CM", "GASPARD = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "Two candles, a missing brooch and a butler with a very precise story. Do the maths — who took it? #mystery #detective #riddle #brainteaser #ClueLab #thinklikeadetective #puzzle",
+  "instagram": "20 cm candles. 2 cm per hour. One blown out. One brooch gone. Gaspard or Henri? Show your maths 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #puzzle #mindgames",
+  "youtubeTitle": "One of these candles is a clock — who took the brooch? #shorts",
+  "youtubeDesc": "A candle, a measurement and a missing diamond. Think like a detective before the countdown! #mystery #riddle #detective #whodunit #shorts"
+ }
+},
+{
+ "id": "CL-0014", "title": "The Planted Colour", "category": "Psychological trap",
+ "question": "Who was driving?",
+ "answer": "Andrés",
+ "explanation": "The witness said the car was dark blue, but the police never released the colour. Inspector Vega deliberately said 'red'. Andrés corrected him with 'dark blue' — only the driver could know. His black car was just repainted at the body shop. Pablo, who owns a red car, simply panicked (false lead).",
+ "mechanism": "Detective plants a false detail; the guilty suspect corrects it with unreleased true knowledge.",
+ "falseLead": "Pablo owns a red car and panics.",
+ "clues": ["Witness told police: dark blue car (colour never released)", "Inspector deliberately says 'a red car'", "Andrés corrects to 'dark blue'; his black car is fresh from the body shop"],
+ "segments": [
+  {"text": "The detective lied on purpose. And the guilty man couldn't resist correcting him.", "scene": {"type": "hook", "title": "THE DETECTIVE\nLIED ON PURPOSE", "icons": ["magnifier"]}},
+  {"text": "A hit and run on Elm Street, at midnight. The only witness saw the car, not the driver: dark blue. That detail was never made public.", "scene": {"type": "info", "heading": "ELM STREET · MIDNIGHT", "icons": ["car"], "lines": ["WITNESS: A DARK BLUE CAR", "COLOUR NEVER RELEASED"]}},
+  {"text": "Inspector Vega visits three neighbours, and tells each one: we know it was a red car.", "scene": {"type": "quote", "who": "INSPECTOR VEGA", "text": "We know it was a red car.", "icon": "person", "sub": "TO EACH NEIGHBOUR"}},
+  {"text": "Pablo, who owns a red car, panics and demands a lawyer.", "scene": {"type": "suspects", "heading": "THREE NEIGHBOURS", "items": [
+    {"name": "PABLO", "role": "OWNS A RED CAR", "note": "PANICS · WANTS A LAWYER", "icon": "person"},
+    {"name": "LUCÍA", "role": "OWNS A GREY CAR", "note": "\"THEN IT WASN'T ME.\"", "icon": "person2"},
+    {"name": "ANDRÉS", "role": "BLACK CAR · NEW PAINT", "note": "\"IT WAS DARK BLUE.\"", "icon": "person3"}]}},
+  {"text": "Lucía shrugs: Red? Then it wasn't me. Mine is grey.", "step": true},
+  {"text": "Andrés, whose black car is fresh from the body shop, frowns: Red? No. It was dark blue.", "step": true},
+  {"text": "Who was driving? You have five seconds.", "scene": {"type": "countdown", "question": "WHO WAS DRIVING?"}},
+  {"text": "Andrés. The colour was never released, and Vega said red on purpose.", "scene": {"type": "reveal", "title": "IT WAS ANDRÉS", "icons": ["car"], "lines": ["\"RED\" WAS A TRAP", "ONLY THE DRIVER KNEW \"BLUE\""]}},
+  {"text": "Only someone who saw that car, or drove it, would know. That fresh black paint hides the blue. Pablo just panicked.", "scene": {"type": "reveal", "title": "THE PLANTED COLOUR", "icons": ["brush", "car"], "lines": ["NEW PAINT HIDES THE BLUE", "PABLO'S PANIC = FALSE LEAD"]}},
+  {"text": "Did you solve it? Every detail matters. This is ClueLab.", "scene": {"type": "outro"}}
+ ],
+ "captions": {
+  "tiktok": "The inspector told the same lie to three neighbours. Only one couldn't help correcting it. Who was driving? #mystery #detective #psychology #riddle #brainteaser #ClueLab #whodunit",
+  "instagram": "A hit and run. A witness. An inspector who lies on purpose. Pablo, Lucía or Andrés — who fell into the trap? 👇 #mystery #riddles #detective #whodunit #brainteaser #ClueLab #psychology #mindgames",
+  "youtubeTitle": "The detective lied on purpose — and caught the driver #shorts",
+  "youtubeDesc": "A psychological trap in three conversations. Can you spot who fell for it before the countdown? #mystery #riddle #detective #whodunit #shorts"
+ }
+}
+]
