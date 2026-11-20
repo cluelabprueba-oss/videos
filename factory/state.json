@@ -3,96 +3,108 @@
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0004": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0005": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0006": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0007": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0008": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0009": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0010": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0011": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0012": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0013": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  },
  "CL-0014": {
   "status": "VALIDATED (production BLOCKED)",
   "history": [
    "IDEA 2026-11-15",
-   "VALIDATED 2026-11-15"
+   "VALIDATED 2026-11-15",
+   "BLOCKED-RECHECK 2026-11-20"
   ],
-  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio)."
+  "notes": "2026-11-15 19:10 UTC: ElevenLabs credit quota exhausted (264/131000 remaining). Narration (NARRATOR ROB, eleven_v4) and music (eleven_music_v2_5) generations failed: \"quota exceeded\". Not produced, not uploaded, not scheduled. ElevenLabs flow 14exO94Se0fszw2mCYUY (failed TTS nodes can be re-run once credits are available). Resume from step 4 (Audio). | 2026-11-20 run: still blocked. Test re-run of CL-0003 narration node mtRs99umB2GAV0PLhzoK failed: \"exceeds quota of 131000; 26 credits remaining, 772 required\". No credits spent. Resume from step 4 once credits reset or the plan is upgraded (owner approval needed)."
  }
 }
